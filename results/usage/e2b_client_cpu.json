@@ -1,0 +1,11 @@
+{
+ "instance": "c8i.metal-48xl (self-hosted E2B client node)",
+ "window": [
+  "2026-10-07T14:15:00Z",
+  "2026-10-07T17:00:00Z"
+ ],
+ "period_sec": 300,
+ "datapoints": 33,
+ "average_percent": 0.703030303030303,
+ "max_percent": 20.0
+}

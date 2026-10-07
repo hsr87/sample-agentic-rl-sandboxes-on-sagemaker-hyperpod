@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0034_768_34768850_qa_5"
+description = "What is the total count of the word \"great\" across all customer reviews in the dataset?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0034/768/34768850.ipynb_qa_5"
+kaggle_dataset_name = "nicapotato/womens-ecommerce-clothing-reviews"
+gold_answer = "6117"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.25
+data_prefix = "nicapotato__womens-ecommerce-clothing-reviews"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/nicapotato__womens-ecommerce-clothing-reviews /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "nicapotato/womens-ecommerce-clothing-reviews"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "6117"
+QUESTION = "What is the total count of the word \"great\" across all customer reviews in the dataset?"
+REWARD_MODE = "numeric"
+ATOL = "0.0"
+RTOL = "0.0"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0015_168_15168316_qa_2"
+description = "How many categorical features demonstrate statistically significant associations with customer churn at the p < 0.05 level?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0015/168/15168316.ipynb_qa_2"
+kaggle_dataset_name = "blastchar/telco-customer-churn"
+gold_answer = "14"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.125
+data_prefix = "blastchar__telco-customer-churn"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/blastchar__telco-customer-churn /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "blastchar/telco-customer-churn"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "14"
+QUESTION = "How many categorical features demonstrate statistically significant associations with customer churn at the p < 0.05 level?"
+REWARD_MODE = "numeric"
+ATOL = "0.0"
+RTOL = "0.0"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

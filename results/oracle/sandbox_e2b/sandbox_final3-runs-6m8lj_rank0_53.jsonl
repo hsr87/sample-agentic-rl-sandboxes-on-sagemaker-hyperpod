@@ -1,0 +1,560 @@
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "create", "dur": 0.6400060099549592, "ok": true, "err": null, "ts": 1791362312.0697443, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "start", "dur": 1.4928306969814003, "ok": true, "err": null, "ts": 1791362313.5627592, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "upload_build_files", "dur": 9.85130900517106e-05, "ok": true, "err": null, "ts": 1791362313.5629885, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "healthcheck", "dur": 0.5253172159427777, "ok": true, "err": null, "ts": 1791362314.0884414, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "prepare", "dur": 0.015492471982724965, "ok": true, "err": null, "ts": 1791362314.1041024, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "provision", "dur": 2.6745595700340346, "ok": true, "err": null, "ts": 1791362314.1042125, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "exec", "dur": 0.012457723962143064, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362314.1291203, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "verify", "dur": 0.866419552010484, "ok": true, "err": null, "ts": 1791362314.9957724, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362314.9958682, "step": null}
+{"sandbox": "e2b", "rollout": "ac10f6f226c3", "task": "0000_939_939639_qa_2", "op": "stop", "dur": 0.04185960302129388, "ok": true, "err": null, "ts": 1791362315.0381153, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "create", "dur": 0.0006037399871274829, "ok": true, "err": null, "ts": 1791362315.0405505, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "start", "dur": 1.2990656610345468, "ok": true, "err": null, "ts": 1791362316.3397496, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "upload_build_files", "dur": 8.65809852257371e-05, "ok": true, "err": null, "ts": 1791362316.339969, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "healthcheck", "dur": 0.7728512519970536, "ok": true, "err": null, "ts": 1791362317.1129355, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "prepare", "dur": 0.01007246202789247, "ok": true, "err": null, "ts": 1791362317.1231322, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "provision", "dur": 2.083302697050385, "ok": true, "err": null, "ts": 1791362317.123236, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "exec", "dur": 0.10120854701381177, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362317.2312276, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "verify", "dur": 0.8414505369728431, "ok": true, "err": null, "ts": 1791362318.0728657, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362318.0729651, "step": null}
+{"sandbox": "e2b", "rollout": "cb02e7b8053b", "task": "0000_994_994443_qa_4", "op": "stop", "dur": 0.036212692968547344, "ok": true, "err": null, "ts": 1791362318.1094782, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "create", "dur": 0.0003829920897260308, "ok": true, "err": null, "ts": 1791362318.1113186, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "start", "dur": 2.074209425947629, "ok": true, "err": null, "ts": 1791362320.185649, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "upload_build_files", "dur": 6.989494431763887e-05, "ok": true, "err": null, "ts": 1791362320.1858346, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "healthcheck", "dur": 0.2753971059573814, "ok": true, "err": null, "ts": 1791362320.4613402, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "prepare", "dur": 0.00967679894529283, "ok": true, "err": null, "ts": 1791362320.4711437, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "provision", "dur": 2.3603199899662286, "ok": true, "err": null, "ts": 1791362320.4712465, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "exec", "dur": 0.21497772599104792, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362320.6927426, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "verify", "dur": 1.4518245660001412, "ok": true, "err": null, "ts": 1791362322.1447637, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362322.1448624, "step": null}
+{"sandbox": "e2b", "rollout": "50535b69fccf", "task": "0001_173_1173665_qa_3", "op": "stop", "dur": 0.026730195037089288, "ok": true, "err": null, "ts": 1791362322.1718905, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "create", "dur": 0.0004504510434344411, "ok": true, "err": null, "ts": 1791362322.1738856, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "start", "dur": 1.0850949140731245, "ok": true, "err": null, "ts": 1791362323.2591171, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "upload_build_files", "dur": 7.599103264510632e-05, "ok": true, "err": null, "ts": 1791362323.2593136, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "healthcheck", "dur": 0.2067337699700147, "ok": true, "err": null, "ts": 1791362323.4661686, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "prepare", "dur": 0.06818153301719576, "ok": true, "err": null, "ts": 1791362323.5344958, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "provision", "dur": 1.3611870229942724, "ok": true, "err": null, "ts": 1791362323.5346105, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "exec", "dur": 0.00977057998534292, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362323.5509918, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "verify", "dur": 1.8241967980284244, "ok": true, "err": null, "ts": 1791362325.3753786, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362325.375476, "step": null}
+{"sandbox": "e2b", "rollout": "357d62022c53", "task": "0001_625_1625261_qa_1", "op": "stop", "dur": 0.027034249040298164, "ok": true, "err": null, "ts": 1791362325.4028196, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "create", "dur": 0.00040237291250377893, "ok": true, "err": null, "ts": 1791362325.4047804, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "start", "dur": 1.5937686660327017, "ok": true, "err": null, "ts": 1791362326.9986832, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "upload_build_files", "dur": 7.205898873507977e-05, "ok": true, "err": null, "ts": 1791362326.9988742, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "healthcheck", "dur": 0.33602539799176157, "ok": true, "err": null, "ts": 1791362327.3350213, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "prepare", "dur": 0.06194245396181941, "ok": true, "err": null, "ts": 1791362327.3971193, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "provision", "dur": 1.9928649100475013, "ok": true, "err": null, "ts": 1791362327.3972306, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "exec", "dur": 0.009851071052253246, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362327.4136505, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "verify", "dur": 0.4820460029877722, "ok": true, "err": null, "ts": 1791362327.8958817, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362327.8959806, "step": null}
+{"sandbox": "e2b", "rollout": "80681fd4d378", "task": "0001_903_1903634_qa_1", "op": "stop", "dur": 0.02711670903954655, "ok": true, "err": null, "ts": 1791362327.9234025, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "create", "dur": 0.00039687007665634155, "ok": true, "err": null, "ts": 1791362327.9253678, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "start", "dur": 0.9771259609842673, "ok": true, "err": null, "ts": 1791362328.9026253, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "upload_build_files", "dur": 7.669499609619379e-05, "ok": true, "err": null, "ts": 1791362328.9028215, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "healthcheck", "dur": 0.401509169023484, "ok": true, "err": null, "ts": 1791362329.3044505, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "prepare", "dur": 0.009861699072644114, "ok": true, "err": null, "ts": 1791362329.3144574, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "provision", "dur": 1.389611893100664, "ok": true, "err": null, "ts": 1791362329.314572, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "exec", "dur": 0.010248442995361984, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362329.3343213, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "verify", "dur": 0.6570966680301353, "ok": true, "err": null, "ts": 1791362329.9916065, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362329.9916987, "step": null}
+{"sandbox": "e2b", "rollout": "ef74ef7735b2", "task": "0001_903_1903634_qa_4", "op": "stop", "dur": 0.03330063901375979, "ok": true, "err": null, "ts": 1791362330.0252814, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "create", "dur": 0.0004006439121440053, "ok": true, "err": null, "ts": 1791362330.0271719, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "start", "dur": 1.3382701919181272, "ok": true, "err": null, "ts": 1791362331.3655744, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "upload_build_files", "dur": 7.471803110092878e-05, "ok": true, "err": null, "ts": 1791362331.365772, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "healthcheck", "dur": 0.4528636670438573, "ok": true, "err": null, "ts": 1791362331.8187551, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "prepare", "dur": 0.3979096378898248, "ok": true, "err": null, "ts": 1791362332.2168074, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "provision", "dur": 2.190172628965229, "ok": true, "err": null, "ts": 1791362332.2169347, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "exec", "dur": 0.01183172594755888, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362332.2360055, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "verify", "dur": 1.6312397179426625, "ok": true, "err": null, "ts": 1791362333.8674567, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362333.8675575, "step": null}
+{"sandbox": "e2b", "rollout": "2595725ce303", "task": "0011_754_11754124_qa_4", "op": "stop", "dur": 0.029412045958451927, "ok": true, "err": null, "ts": 1791362333.897301, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "create", "dur": 0.0004049160052090883, "ok": true, "err": null, "ts": 1791362333.8992038, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "start", "dur": 1.478306000935845, "ok": true, "err": null, "ts": 1791362335.37765, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "upload_build_files", "dur": 8.105509914457798e-05, "ok": true, "err": null, "ts": 1791362335.3778565, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "healthcheck", "dur": 0.4780673810746521, "ok": true, "err": null, "ts": 1791362335.8560553, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "prepare", "dur": 0.038076197961345315, "ok": true, "err": null, "ts": 1791362335.8942788, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "provision", "dur": 1.9956054689828306, "ok": true, "err": null, "ts": 1791362335.8943908, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "exec", "dur": 0.012014784966595471, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362335.9129148, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "verify", "dur": 0.7581441110232845, "ok": true, "err": null, "ts": 1791362336.6712537, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362336.6713529, "step": null}
+{"sandbox": "e2b", "rollout": "2b7b4b83a093", "task": "0012_920_12920904_qa_2", "op": "stop", "dur": 0.026747625903226435, "ok": true, "err": null, "ts": 1791362336.6983972, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "create", "dur": 0.00040691206231713295, "ok": true, "err": null, "ts": 1791362336.7002728, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "start", "dur": 1.6421755260089412, "ok": true, "err": null, "ts": 1791362338.3425965, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "upload_build_files", "dur": 8.084392175078392e-05, "ok": true, "err": null, "ts": 1791362338.3428147, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "healthcheck", "dur": 0.8886780119501054, "ok": true, "err": null, "ts": 1791362339.2316227, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "prepare", "dur": 0.009027629042975605, "ok": true, "err": null, "ts": 1791362339.2408025, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "provision", "dur": 2.5410618940368295, "ok": true, "err": null, "ts": 1791362339.2409158, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "exec", "dur": 0.01051337702665478, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362339.2578886, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "verify", "dur": 0.6586746459361166, "ok": true, "err": null, "ts": 1791362339.9167602, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362339.9168553, "step": null}
+{"sandbox": "e2b", "rollout": "19aa7647e658", "task": "0012_953_12953382_qa_3", "op": "stop", "dur": 0.028371753985993564, "ok": true, "err": null, "ts": 1791362339.9455426, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "create", "dur": 0.00041156995575875044, "ok": true, "err": null, "ts": 1791362339.947482, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "start", "dur": 1.6089364479994401, "ok": true, "err": null, "ts": 1791362341.556549, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "upload_build_files", "dur": 7.439008913934231e-05, "ok": true, "err": null, "ts": 1791362341.5567405, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "healthcheck", "dur": 0.3650602480629459, "ok": true, "err": null, "ts": 1791362341.92192, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "prepare", "dur": 0.018716598046012223, "ok": true, "err": null, "ts": 1791362341.9407833, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "provision", "dur": 1.9938396679935977, "ok": true, "err": null, "ts": 1791362341.9408975, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "exec", "dur": 0.01106887892819941, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362341.958911, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "verify", "dur": 0.7927039989735931, "ok": true, "err": null, "ts": 1791362342.751803, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362342.7518988, "step": null}
+{"sandbox": "e2b", "rollout": "5dd5bf737e38", "task": "0015_168_15168316_qa_2", "op": "stop", "dur": 0.028801848064176738, "ok": true, "err": null, "ts": 1791362342.7810187, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "create", "dur": 0.0003994859289377928, "ok": true, "err": null, "ts": 1791362342.7829275, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "start", "dur": 1.4703620730433613, "ok": true, "err": null, "ts": 1791362344.2534304, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "upload_build_files", "dur": 8.745607919991016e-05, "ok": true, "err": null, "ts": 1791362344.2536888, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "healthcheck", "dur": 0.4737563399830833, "ok": true, "err": null, "ts": 1791362344.7275665, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "prepare", "dur": 0.05659526900853962, "ok": true, "err": null, "ts": 1791362344.7843025, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "provision", "dur": 2.0018979950109497, "ok": true, "err": null, "ts": 1791362344.7844148, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "exec", "dur": 0.011537802987731993, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362344.803321, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "verify", "dur": 0.9867456570500508, "ok": true, "err": null, "ts": 1791362345.7902534, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362345.7903545, "step": null}
+{"sandbox": "e2b", "rollout": "77e8151ea958", "task": "0016_945_16945752_qa_1", "op": "stop", "dur": 0.03320509206969291, "ok": true, "err": null, "ts": 1791362345.8238595, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "create", "dur": 0.00040574895683676004, "ok": true, "err": null, "ts": 1791362345.8257866, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "start", "dur": 1.727673964924179, "ok": true, "err": null, "ts": 1791362347.553612, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "upload_build_files", "dur": 8.419202640652657e-05, "ok": true, "err": null, "ts": 1791362347.553835, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "healthcheck", "dur": 0.436097800033167, "ok": true, "err": null, "ts": 1791362347.990064, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "prepare", "dur": 0.009048840962350368, "ok": true, "err": null, "ts": 1791362347.9992697, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "provision", "dur": 2.174016648903489, "ok": true, "err": null, "ts": 1791362347.9993854, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "exec", "dur": 0.059617729973979294, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362348.0660582, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "verify", "dur": 1.0540336850099266, "ok": true, "err": null, "ts": 1791362349.120289, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362349.1203847, "step": null}
+{"sandbox": "e2b", "rollout": "f9ddbfdda6ac", "task": "0026_826_26826730_qa_2", "op": "stop", "dur": 0.027467551990412176, "ok": true, "err": null, "ts": 1791362349.1481853, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "create", "dur": 0.00041779899038374424, "ok": true, "err": null, "ts": 1791362349.1501496, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "start", "dur": 1.745532148052007, "ok": true, "err": null, "ts": 1791362350.8958228, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "upload_build_files", "dur": 8.028000593185425e-05, "ok": true, "err": null, "ts": 1791362350.896048, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "healthcheck", "dur": 0.21193274401593953, "ok": true, "err": null, "ts": 1791362351.1081107, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "prepare", "dur": 0.19780107901897281, "ok": true, "err": null, "ts": 1791362351.306063, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "provision", "dur": 2.1564585539745167, "ok": true, "err": null, "ts": 1791362351.3061774, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "exec", "dur": 0.01942953304387629, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362351.3414059, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "verify", "dur": 0.7219625900033861, "ok": true, "err": null, "ts": 1791362352.0635629, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362352.0636594, "step": null}
+{"sandbox": "e2b", "rollout": "c45b0099140b", "task": "0027_270_27270164_qa_4", "op": "stop", "dur": 0.029319896013475955, "ok": true, "err": null, "ts": 1791362352.0932698, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "create", "dur": 0.0003938400186598301, "ok": true, "err": null, "ts": 1791362352.0952094, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "start", "dur": 0.9284259210107848, "ok": true, "err": null, "ts": 1791362353.0237656, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "upload_build_files", "dur": 7.241906132549047e-05, "ok": true, "err": null, "ts": 1791362353.0239527, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "healthcheck", "dur": 1.089978038915433, "ok": true, "err": null, "ts": 1791362354.1140425, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "prepare", "dur": 0.010232674074359238, "ok": true, "err": null, "ts": 1791362354.1244028, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "provision", "dur": 2.02970118902158, "ok": true, "err": null, "ts": 1791362354.1245055, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "exec", "dur": 0.059456806047819555, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362354.1912773, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "verify", "dur": 0.7575000820215791, "ok": true, "err": null, "ts": 1791362354.9489567, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362354.9490526, "step": null}
+{"sandbox": "e2b", "rollout": "9da907811e7c", "task": "0031_757_31757076_qa_2", "op": "stop", "dur": 0.03083060693461448, "ok": true, "err": null, "ts": 1791362354.9801693, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "create", "dur": 0.0003974420251324773, "ok": true, "err": null, "ts": 1791362354.982066, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "start", "dur": 1.4458702870178968, "ok": true, "err": null, "ts": 1791362356.4280772, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "upload_build_files", "dur": 7.582001853734255e-05, "ok": true, "err": null, "ts": 1791362356.4282873, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "healthcheck", "dur": 0.7815392758930102, "ok": true, "err": null, "ts": 1791362357.2099383, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "prepare", "dur": 0.00940130592789501, "ok": true, "err": null, "ts": 1791362357.2194633, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "provision", "dur": 2.237908346927725, "ok": true, "err": null, "ts": 1791362357.2195644, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "exec", "dur": 0.1825155100086704, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362357.560094, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "verify", "dur": 0.5718384790234268, "ok": true, "err": null, "ts": 1791362358.132097, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362358.132185, "step": null}
+{"sandbox": "e2b", "rollout": "2ff7512d1293", "task": "0034_768_34768850_qa_5", "op": "stop", "dur": 0.027856765897013247, "ok": true, "err": null, "ts": 1791362358.1602871, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "create", "dur": 0.00036732200533151627, "ok": true, "err": null, "ts": 1791362358.1620483, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "start", "dur": 1.637564626056701, "ok": true, "err": null, "ts": 1791362359.7997384, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "upload_build_files", "dur": 6.813800428062677e-05, "ok": true, "err": null, "ts": 1791362359.7999158, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "healthcheck", "dur": 0.21246250497642905, "ok": true, "err": null, "ts": 1791362360.012483, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "prepare", "dur": 0.008511499967426062, "ok": true, "err": null, "ts": 1791362360.0211177, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "provision", "dur": 1.8595469859428704, "ok": true, "err": null, "ts": 1791362360.021219, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "exec", "dur": 0.011824466986581683, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362360.0391226, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "verify", "dur": 0.575426984927617, "ok": true, "err": null, "ts": 1791362360.6147132, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362360.6148062, "step": null}
+{"sandbox": "e2b", "rollout": "1d47b23c916f", "task": "0037_209_37209957_qa_1", "op": "stop", "dur": 0.029023166047409177, "ok": true, "err": null, "ts": 1791362360.6441076, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "create", "dur": 0.0003893770044669509, "ok": true, "err": null, "ts": 1791362360.6459572, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "start", "dur": 1.9327168790623546, "ok": true, "err": null, "ts": 1791362362.5788035, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "upload_build_files", "dur": 7.593503687530756e-05, "ok": true, "err": null, "ts": 1791362362.5790033, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "healthcheck", "dur": 0.12291653000283986, "ok": true, "err": null, "ts": 1791362362.7020414, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "prepare", "dur": 0.009835472097620368, "ok": true, "err": null, "ts": 1791362362.7120223, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "provision", "dur": 2.0665944640059024, "ok": true, "err": null, "ts": 1791362362.7121527, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "exec", "dur": 0.01002217992208898, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362362.7283335, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "verify", "dur": 1.4292211669962853, "ok": true, "err": null, "ts": 1791362364.1577418, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362364.1578343, "step": null}
+{"sandbox": "e2b", "rollout": "122bfddc60d7", "task": "0039_156_39156457_qa_3", "op": "stop", "dur": 0.028594071976840496, "ok": true, "err": null, "ts": 1791362364.1867123, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "create", "dur": 0.00037320295814424753, "ok": true, "err": null, "ts": 1791362364.1885157, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "start", "dur": 1.1414976599626243, "ok": true, "err": null, "ts": 1791362365.3301487, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "upload_build_files", "dur": 8.064205758273602e-05, "ok": true, "err": null, "ts": 1791362365.3303673, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "healthcheck", "dur": 0.6339412470115349, "ok": true, "err": null, "ts": 1791362365.9644294, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "prepare", "dur": 0.1599258950445801, "ok": true, "err": null, "ts": 1791362366.1245043, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "provision", "dur": 1.9364877128973603, "ok": true, "err": null, "ts": 1791362366.1246212, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "exec", "dur": 0.010430766036733985, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362366.1420348, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "verify", "dur": 1.1385839560534805, "ok": true, "err": null, "ts": 1791362367.280806, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362367.2809007, "step": null}
+{"sandbox": "e2b", "rollout": "e5d4be32654e", "task": "0045_067_45067031_qa_3", "op": "stop", "dur": 0.03314852202311158, "ok": true, "err": null, "ts": 1791362367.3143432, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "create", "dur": 0.00041336892172694206, "ok": true, "err": null, "ts": 1791362367.3162484, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "start", "dur": 0.8292769620893523, "ok": true, "err": null, "ts": 1791362368.1456592, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "upload_build_files", "dur": 7.828709203749895e-05, "ok": true, "err": null, "ts": 1791362368.1458638, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "healthcheck", "dur": 1.4123795019695535, "ok": true, "err": null, "ts": 1791362369.5583675, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "prepare", "dur": 0.34449601196683943, "ok": true, "err": null, "ts": 1791362369.9030151, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "provision", "dur": 2.5873103130143136, "ok": true, "err": null, "ts": 1791362369.903134, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "exec", "dur": 0.4922548560425639, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362370.4029489, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "verify", "dur": 1.1982824919978157, "ok": true, "err": null, "ts": 1791362371.601432, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362371.6015303, "step": null}
+{"sandbox": "e2b", "rollout": "0491b6b376a6", "task": "0052_465_52465579_qa_3", "op": "stop", "dur": 0.046340401051566005, "ok": true, "err": null, "ts": 1791362371.6482158, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "create", "dur": 0.00039587204810231924, "ok": true, "err": null, "ts": 1791362371.650111, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "start", "dur": 0.8459478189470246, "ok": true, "err": null, "ts": 1791362372.496194, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "upload_build_files", "dur": 7.53659987822175e-05, "ok": true, "err": null, "ts": 1791362372.4963915, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "healthcheck", "dur": 0.49491906398907304, "ok": true, "err": null, "ts": 1791362372.9914274, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "prepare", "dur": 0.009094670065678656, "ok": true, "err": null, "ts": 1791362373.000671, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "provision", "dur": 1.3510776770999655, "ok": true, "err": null, "ts": 1791362373.000781, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "exec", "dur": 0.009079153067432344, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362373.015814, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "verify", "dur": 1.3162323649739847, "ok": true, "err": null, "ts": 1791362374.332226, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362374.3323224, "step": null}
+{"sandbox": "e2b", "rollout": "bf568a1bb297", "task": "0052_694_52694962_qa_4", "op": "stop", "dur": 0.04463243007194251, "ok": true, "err": null, "ts": 1791362374.3772378, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "create", "dur": 0.00038111303001642227, "ok": true, "err": null, "ts": 1791362374.3791032, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "start", "dur": 1.376847323961556, "ok": true, "err": null, "ts": 1791362375.7560978, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "upload_build_files", "dur": 8.073903154581785e-05, "ok": true, "err": null, "ts": 1791362375.756305, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "healthcheck", "dur": 0.253333532018587, "ok": true, "err": null, "ts": 1791362376.0097642, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "prepare", "dur": 0.31890734005719423, "ok": true, "err": null, "ts": 1791362376.3288198, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "provision", "dur": 1.9502241240115836, "ok": true, "err": null, "ts": 1791362376.328935, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "exec", "dur": 0.010459681041538715, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362376.3460708, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "verify", "dur": 0.8363830239977688, "ok": true, "err": null, "ts": 1791362377.1826472, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362377.1827471, "step": null}
+{"sandbox": "e2b", "rollout": "68144c9f0319", "task": "0056_414_56414713_qa_1", "op": "stop", "dur": 0.02696752909105271, "ok": true, "err": null, "ts": 1791362377.2100444, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "create", "dur": 0.0003970880061388016, "ok": true, "err": null, "ts": 1791362377.2119648, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "start", "dur": 1.1061117679346353, "ok": true, "err": null, "ts": 1791362378.318236, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "upload_build_files", "dur": 9.890703950077295e-05, "ok": true, "err": null, "ts": 1791362378.3184755, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "healthcheck", "dur": 0.31334240501746535, "ok": true, "err": null, "ts": 1791362378.631945, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "prepare", "dur": 0.029045634088106453, "ok": true, "err": null, "ts": 1791362378.6611488, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "provision", "dur": 1.4497181311016902, "ok": true, "err": null, "ts": 1791362378.6612754, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "exec", "dur": 0.5013777400599793, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362379.3695974, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "verify", "dur": 0.649526922032237, "ok": true, "err": null, "ts": 1791362380.0193405, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362380.0194397, "step": null}
+{"sandbox": "e2b", "rollout": "1d4143240d1d", "task": "0056_714_56714045_qa_3", "op": "stop", "dur": 0.027303162962198257, "ok": true, "err": null, "ts": 1791362380.0470557, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "create", "dur": 0.00040857295971363783, "ok": true, "err": null, "ts": 1791362380.048979, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "start", "dur": 1.1324772270163521, "ok": true, "err": null, "ts": 1791362381.181589, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "upload_build_files", "dur": 7.516494952142239e-05, "ok": true, "err": null, "ts": 1791362381.1817849, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "healthcheck", "dur": 0.7257316190516576, "ok": true, "err": null, "ts": 1791362381.9076393, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "prepare", "dur": 0.00997107895091176, "ok": true, "err": null, "ts": 1791362381.9177592, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "provision", "dur": 1.8693157179513946, "ok": true, "err": null, "ts": 1791362381.917875, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "exec", "dur": 0.1376987739931792, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362382.0619934, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "verify", "dur": 1.4385061209322885, "ok": true, "err": null, "ts": 1791362383.5006902, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362383.5007877, "step": null}
+{"sandbox": "e2b", "rollout": "fa857e956cd7", "task": "0066_820_66820736_qa_5", "op": "stop", "dur": 0.028609931003302336, "ok": true, "err": null, "ts": 1791362383.5297024, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "create", "dur": 0.0003896959824487567, "ok": true, "err": null, "ts": 1791362383.531596, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "start", "dur": 2.1122445600340143, "ok": true, "err": null, "ts": 1791362385.6439767, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "upload_build_files", "dur": 7.809908129274845e-05, "ok": true, "err": null, "ts": 1791362385.6441967, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "healthcheck", "dur": 0.4082618330139667, "ok": true, "err": null, "ts": 1791362386.0525832, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "prepare", "dur": 0.07890444190707058, "ok": true, "err": null, "ts": 1791362386.131634, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "provision", "dur": 2.6005550289992243, "ok": true, "err": null, "ts": 1791362386.1317494, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "exec", "dur": 0.010940082021988928, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362386.149749, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "verify", "dur": 1.5426524499198422, "ok": true, "err": null, "ts": 1791362387.692606, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362387.6926968, "step": null}
+{"sandbox": "e2b", "rollout": "b91182682dfd", "task": "0067_076_67076892_qa_3", "op": "stop", "dur": 0.028193228994496167, "ok": true, "err": null, "ts": 1791362387.7211666, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "create", "dur": 0.00036534806713461876, "ok": true, "err": null, "ts": 1791362387.722935, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "start", "dur": 0.8662785269552842, "ok": true, "err": null, "ts": 1791362388.5893424, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "upload_build_files", "dur": 7.475807797163725e-05, "ok": true, "err": null, "ts": 1791362388.5895398, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "healthcheck", "dur": 0.816006968030706, "ok": true, "err": null, "ts": 1791362389.4056644, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "prepare", "dur": 0.008761386969126761, "ok": true, "err": null, "ts": 1791362389.4145727, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "provision", "dur": 1.6921274659689516, "ok": true, "err": null, "ts": 1791362389.4146867, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "exec", "dur": 0.009583421051502228, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362389.4465804, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "verify", "dur": 0.9391258059768006, "ok": true, "err": null, "ts": 1791362390.385907, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362390.386004, "step": null}
+{"sandbox": "e2b", "rollout": "926657643422", "task": "0074_012_74012086_qa_5", "op": "stop", "dur": 0.02839327696710825, "ok": true, "err": null, "ts": 1791362390.4147027, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "create", "dur": 0.0003801550483331084, "ok": true, "err": null, "ts": 1791362390.4165425, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "start", "dur": 1.9547950060805306, "ok": true, "err": null, "ts": 1791362392.37147, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "upload_build_files", "dur": 7.595901843160391e-05, "ok": true, "err": null, "ts": 1791362392.3716714, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "healthcheck", "dur": 0.5256054699420929, "ok": true, "err": null, "ts": 1791362392.897394, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "prepare", "dur": 0.19773745792917907, "ok": true, "err": null, "ts": 1791362393.0952742, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "provision", "dur": 2.6792388069443405, "ok": true, "err": null, "ts": 1791362393.0953908, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "exec", "dur": 0.0130694389808923, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362393.1160655, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "verify", "dur": 0.5807751780375838, "ok": true, "err": null, "ts": 1791362393.6970541, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362393.69716, "step": null}
+{"sandbox": "e2b", "rollout": "83f94bfa400a", "task": "0075_094_75094397_qa_3", "op": "stop", "dur": 0.028449284960515797, "ok": true, "err": null, "ts": 1791362393.7258906, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "create", "dur": 0.0006417599506676197, "ok": true, "err": null, "ts": 1791362393.7279973, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "start", "dur": 1.2766464980086312, "ok": true, "err": null, "ts": 1791362395.0047817, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "upload_build_files", "dur": 7.101008668541908e-05, "ok": true, "err": null, "ts": 1791362395.0049672, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "healthcheck", "dur": 0.9727043510647491, "ok": true, "err": null, "ts": 1791362395.9777894, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "prepare", "dur": 0.104454237036407, "ok": true, "err": null, "ts": 1791362396.0823944, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "provision", "dur": 2.3551644920371473, "ok": true, "err": null, "ts": 1791362396.0825088, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "exec", "dur": 0.0104305949062109, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362396.09948, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "verify", "dur": 0.9418892030371353, "ok": true, "err": null, "ts": 1791362397.0415568, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362397.0416477, "step": null}
+{"sandbox": "e2b", "rollout": "1cf9faf6baef", "task": "0081_615_81615013_qa_4", "op": "stop", "dur": 0.0327408459270373, "ok": true, "err": null, "ts": 1791362397.0746596, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "create", "dur": 0.0003659749636426568, "ok": true, "err": null, "ts": 1791362397.0764444, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "start", "dur": 1.1866540279006585, "ok": true, "err": null, "ts": 1791362398.2632358, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "upload_build_files", "dur": 8.116697426885366e-05, "ok": true, "err": null, "ts": 1791362398.2634504, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "healthcheck", "dur": 0.19769505294971168, "ok": true, "err": null, "ts": 1791362398.4612901, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "prepare", "dur": 0.009732438018545508, "ok": true, "err": null, "ts": 1791362398.4711537, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "provision", "dur": 1.3951890779426321, "ok": true, "err": null, "ts": 1791362398.4712574, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "exec", "dur": 0.011469627963379025, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362398.4891968, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "verify", "dur": 1.2782840130385011, "ok": true, "err": null, "ts": 1791362399.7676566, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362399.7677515, "step": null}
+{"sandbox": "e2b", "rollout": "105906cefa66", "task": "0083_191_83191425_qa_1", "op": "stop", "dur": 0.029516658978536725, "ok": true, "err": null, "ts": 1791362399.7975368, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "create", "dur": 0.00038457103073596954, "ok": true, "err": null, "ts": 1791362399.7993834, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "start", "dur": 1.0304242060519755, "ok": true, "err": null, "ts": 1791362400.829937, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "upload_build_files", "dur": 7.793004624545574e-05, "ok": true, "err": null, "ts": 1791362400.830138, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "healthcheck", "dur": 1.0493562360061333, "ok": true, "err": null, "ts": 1791362401.879614, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "prepare", "dur": 0.10170760506298393, "ok": true, "err": null, "ts": 1791362401.9814665, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "provision", "dur": 2.1825880240648985, "ok": true, "err": null, "ts": 1791362401.9815774, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "exec", "dur": 0.01856766699347645, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362402.0067074, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "verify", "dur": 0.7823441120563075, "ok": true, "err": null, "ts": 1791362402.789235, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "reward", "reward": 1.0, "ts": 1791362402.7893326, "step": null}
+{"sandbox": "e2b", "rollout": "a1ff8a8f7308", "task": "0083_191_83191425_qa_3", "op": "stop", "dur": 0.03234730090480298, "ok": true, "err": null, "ts": 1791362402.822002, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "create", "dur": 0.0004219410475343466, "ok": true, "err": null, "ts": 1791362402.823992, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "start", "dur": 2.3090159139828756, "ok": true, "err": null, "ts": 1791362405.133163, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "upload_build_files", "dur": 8.284603245556355e-05, "ok": true, "err": null, "ts": 1791362405.1333792, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "healthcheck", "dur": 0.22381181095261127, "ok": true, "err": null, "ts": 1791362405.3573153, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "prepare", "dur": 0.010940993088297546, "ok": true, "err": null, "ts": 1791362405.3684025, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "provision", "dur": 2.5449579060077667, "ok": true, "err": null, "ts": 1791362405.3685162, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "exec", "dur": 0.01055394602008164, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362405.385781, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "verify", "dur": 1.3004303979687393, "ok": true, "err": null, "ts": 1791362406.6864052, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362406.6865017, "step": null}
+{"sandbox": "e2b", "rollout": "6087c3c137e5", "task": "0087_136_87136363_qa_5", "op": "stop", "dur": 0.030389845953322947, "ok": true, "err": null, "ts": 1791362406.7172139, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "create", "dur": 0.0004114439943805337, "ok": true, "err": null, "ts": 1791362406.719165, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "start", "dur": 1.5404230649583042, "ok": true, "err": null, "ts": 1791362408.2597451, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "upload_build_files", "dur": 8.190993685275316e-05, "ok": true, "err": null, "ts": 1791362408.2599633, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "healthcheck", "dur": 0.5511399110546336, "ok": true, "err": null, "ts": 1791362408.8112257, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "prepare", "dur": 0.010295099928043783, "ok": true, "err": null, "ts": 1791362408.821664, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "provision", "dur": 2.1030348310014233, "ok": true, "err": null, "ts": 1791362408.8217769, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "exec", "dur": 0.011401647934690118, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362408.8409157, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "verify", "dur": 0.5929764290340245, "ok": true, "err": null, "ts": 1791362409.4340887, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362409.4341822, "step": null}
+{"sandbox": "e2b", "rollout": "d067ced83902", "task": "0088_548_88548685_qa_4", "op": "stop", "dur": 0.03018006798811257, "ok": true, "err": null, "ts": 1791362409.4646845, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "create", "dur": 0.00041182292625308037, "ok": true, "err": null, "ts": 1791362409.4666274, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "start", "dur": 1.038876225007698, "ok": true, "err": null, "ts": 1791362410.5056386, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "upload_build_files", "dur": 7.934297900646925e-05, "ok": true, "err": null, "ts": 1791362410.5058427, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "healthcheck", "dur": 0.5589379809098318, "ok": true, "err": null, "ts": 1791362411.0649054, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "prepare", "dur": 0.011090488056652248, "ok": true, "err": null, "ts": 1791362411.076143, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "provision", "dur": 1.6100546380039304, "ok": true, "err": null, "ts": 1791362411.0762575, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "exec", "dur": 0.013657388975843787, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362411.0996885, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "verify", "dur": 0.7200478119775653, "ok": true, "err": null, "ts": 1791362411.8199234, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362411.8200235, "step": null}
+{"sandbox": "e2b", "rollout": "9a2008e834d8", "task": "0093_351_93351284_qa_1", "op": "stop", "dur": 0.029097390011884272, "ok": true, "err": null, "ts": 1791362411.8494298, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "create", "dur": 0.0004157709190621972, "ok": true, "err": null, "ts": 1791362411.8514144, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "start", "dur": 1.0806414280086756, "ok": true, "err": null, "ts": 1791362412.9321876, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "upload_build_files", "dur": 7.096596527844667e-05, "ok": true, "err": null, "ts": 1791362412.9323716, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "healthcheck", "dur": 0.6738919910276309, "ok": true, "err": null, "ts": 1791362413.6063862, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "prepare", "dur": 0.05697567202150822, "ok": true, "err": null, "ts": 1791362413.6635165, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "provision", "dur": 1.8126369090750813, "ok": true, "err": null, "ts": 1791362413.6636236, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "exec", "dur": 0.011917592026293278, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362413.6831608, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "verify", "dur": 0.4384991249535233, "ok": true, "err": null, "ts": 1791362414.1218278, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362414.1219208, "step": null}
+{"sandbox": "e2b", "rollout": "5d474342008c", "task": "0095_690_95690898_qa_5", "op": "stop", "dur": 0.02822718909010291, "ok": true, "err": null, "ts": 1791362414.1504169, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "create", "dur": 0.0003907319623976946, "ok": true, "err": null, "ts": 1791362414.1530166, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "start", "dur": 1.3639124140609056, "ok": true, "err": null, "ts": 1791362415.5170622, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "upload_build_files", "dur": 7.777090650051832e-05, "ok": true, "err": null, "ts": 1791362415.5172608, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "healthcheck", "dur": 0.6387823779368773, "ok": true, "err": null, "ts": 1791362416.1561644, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "prepare", "dur": 0.06575866905041039, "ok": true, "err": null, "ts": 1791362416.222076, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "provision", "dur": 2.0695742830866948, "ok": true, "err": null, "ts": 1791362416.222191, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "exec", "dur": 0.010383618995547295, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362416.2397802, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "verify", "dur": 0.8511941159376875, "ok": true, "err": null, "ts": 1791362417.091165, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362417.091261, "step": null}
+{"sandbox": "e2b", "rollout": "cc711c3f435c", "task": "0113_941_113941848_qa_4", "op": "stop", "dur": 0.03002602409105748, "ok": true, "err": null, "ts": 1791362417.1215835, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "create", "dur": 0.00038478197529911995, "ok": true, "err": null, "ts": 1791362417.123447, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "start", "dur": 1.6322415960021317, "ok": true, "err": null, "ts": 1791362418.755866, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "upload_build_files", "dur": 0.00010290206409990788, "ok": true, "err": null, "ts": 1791362418.7561176, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "healthcheck", "dur": 0.45211042603477836, "ok": true, "err": null, "ts": 1791362419.208361, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "prepare", "dur": 0.009136726032011211, "ok": true, "err": null, "ts": 1791362419.217659, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "provision", "dur": 2.094721405999735, "ok": true, "err": null, "ts": 1791362419.2177725, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "exec", "dur": 0.009984013973735273, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362419.2339277, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "verify", "dur": 0.658433954929933, "ok": true, "err": null, "ts": 1791362419.8925505, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362419.8926427, "step": null}
+{"sandbox": "e2b", "rollout": "5ca0248d4dbc", "task": "0114_673_114673575_qa_5", "op": "stop", "dur": 0.03073259606026113, "ok": true, "err": null, "ts": 1791362419.9236813, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "create", "dur": 0.0004091680748388171, "ok": true, "err": null, "ts": 1791362419.9256508, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "start", "dur": 1.5430817819433287, "ok": true, "err": null, "ts": 1791362421.4688666, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "upload_build_files", "dur": 7.659697439521551e-05, "ok": true, "err": null, "ts": 1791362421.4690669, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "healthcheck", "dur": 0.3176887260051444, "ok": true, "err": null, "ts": 1791362421.7868748, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "prepare", "dur": 0.009809121023863554, "ok": true, "err": null, "ts": 1791362421.7968268, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "provision", "dur": 1.8717095738975331, "ok": true, "err": null, "ts": 1791362421.796938, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "exec", "dur": 0.010754756978712976, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362421.8150177, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "verify", "dur": 0.8510972729418427, "ok": true, "err": null, "ts": 1791362422.6663299, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362422.6664271, "step": null}
+{"sandbox": "e2b", "rollout": "eb5c55418683", "task": "0115_514_115514429_qa_4", "op": "stop", "dur": 0.028569618007168174, "ok": true, "err": null, "ts": 1791362422.6953073, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "create", "dur": 0.0004032379947602749, "ok": true, "err": null, "ts": 1791362422.6972253, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "start", "dur": 1.3026413799962029, "ok": true, "err": null, "ts": 1791362423.9999974, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "upload_build_files", "dur": 7.469300180673599e-05, "ok": true, "err": null, "ts": 1791362424.000204, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "healthcheck", "dur": 0.5253843560349196, "ok": true, "err": null, "ts": 1791362424.525712, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "prepare", "dur": 0.009808795060962439, "ok": true, "err": null, "ts": 1791362424.535667, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "provision", "dur": 1.8389810919761658, "ok": true, "err": null, "ts": 1791362424.5357919, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "exec", "dur": 0.01159696199465543, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362424.5542934, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "verify", "dur": 1.4920145809883252, "ok": true, "err": null, "ts": 1791362426.0465038, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362426.0465982, "step": null}
+{"sandbox": "e2b", "rollout": "c2eb463e9468", "task": "0119_590_119590030_qa_2", "op": "stop", "dur": 0.030954172019846737, "ok": true, "err": null, "ts": 1791362426.0778568, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "create", "dur": 0.00038991798646748066, "ok": true, "err": null, "ts": 1791362426.079757, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "start", "dur": 1.0648172359215096, "ok": true, "err": null, "ts": 1791362427.1446972, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "upload_build_files", "dur": 7.021508645266294e-05, "ok": true, "err": null, "ts": 1791362427.1448817, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "healthcheck", "dur": 0.5906758749624714, "ok": true, "err": null, "ts": 1791362427.7356834, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "prepare", "dur": 0.14757416304200888, "ok": true, "err": null, "ts": 1791362427.883418, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "provision", "dur": 1.8042122189654037, "ok": true, "err": null, "ts": 1791362427.8835762, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "exec", "dur": 0.02485916903242469, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362427.9149394, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "verify", "dur": 1.1988779930397868, "ok": true, "err": null, "ts": 1791362429.1140156, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362429.114117, "step": null}
+{"sandbox": "e2b", "rollout": "ea2b83e163e4", "task": "0127_585_127585527_qa_4", "op": "stop", "dur": 0.028785562026314437, "ok": true, "err": null, "ts": 1791362429.1432784, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "create", "dur": 0.00040138489566743374, "ok": true, "err": null, "ts": 1791362429.145268, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "start", "dur": 2.6769205949967727, "ok": true, "err": null, "ts": 1791362431.8223433, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "upload_build_files", "dur": 9.010103531181812e-05, "ok": true, "err": null, "ts": 1791362431.8225794, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "healthcheck", "dur": 0.09298997302539647, "ok": true, "err": null, "ts": 1791362431.9156964, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "prepare", "dur": 0.009907833999022841, "ok": true, "err": null, "ts": 1791362431.9257507, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "provision", "dur": 2.7810095690656453, "ok": true, "err": null, "ts": 1791362431.9258642, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "exec", "dur": 0.010356951970607042, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362431.942411, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "verify", "dur": 0.6046547220321372, "ok": true, "err": null, "ts": 1791362432.5472622, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362432.547363, "step": null}
+{"sandbox": "e2b", "rollout": "4a8eaf4f32f9", "task": "0133_615_133615287_qa_4", "op": "stop", "dur": 0.0285169460112229, "ok": true, "err": null, "ts": 1791362432.5761988, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "create", "dur": 0.00041329499799758196, "ok": true, "err": null, "ts": 1791362432.5781534, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "start", "dur": 1.427376611973159, "ok": true, "err": null, "ts": 1791362434.0056686, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "upload_build_files", "dur": 7.45940487831831e-05, "ok": true, "err": null, "ts": 1791362434.0058646, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "healthcheck", "dur": 0.7363973439205438, "ok": true, "err": null, "ts": 1791362434.7423782, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "prepare", "dur": 0.08274295902810991, "ok": true, "err": null, "ts": 1791362434.825259, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "provision", "dur": 2.2476375880651176, "ok": true, "err": null, "ts": 1791362434.8253646, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "exec", "dur": 0.17288273095618933, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362435.0054426, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "verify", "dur": 0.6280764130642638, "ok": true, "err": null, "ts": 1791362435.633717, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362435.6338167, "step": null}
+{"sandbox": "e2b", "rollout": "8a30ab21a2b8", "task": "0136_053_136053251_qa_2", "op": "stop", "dur": 0.07725781190674752, "ok": true, "err": null, "ts": 1791362435.7113943, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "create", "dur": 0.0007593439659103751, "ok": true, "err": null, "ts": 1791362435.7137363, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "start", "dur": 1.0348480429966003, "ok": true, "err": null, "ts": 1791362436.748713, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "upload_build_files", "dur": 6.718398071825504e-05, "ok": true, "err": null, "ts": 1791362436.748886, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "healthcheck", "dur": 0.6833970599109307, "ok": true, "err": null, "ts": 1791362437.4323938, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "prepare", "dur": 0.009443168994039297, "ok": true, "err": null, "ts": 1791362437.4419699, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "provision", "dur": 1.7291157300351188, "ok": true, "err": null, "ts": 1791362437.442078, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "exec", "dur": 0.011118684080429375, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362437.4590743, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "verify", "dur": 1.4954221410444006, "ok": true, "err": null, "ts": 1791362438.9546828, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362438.9547944, "step": null}
+{"sandbox": "e2b", "rollout": "1bd4472630c3", "task": "0000_563_563874_qa_2", "op": "stop", "dur": 0.02754217607434839, "ok": true, "err": null, "ts": 1791362438.9826412, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "create", "dur": 0.00040113693103194237, "ok": true, "err": null, "ts": 1791362438.984583, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "start", "dur": 1.2500162069918588, "ok": true, "err": null, "ts": 1791362440.2347364, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "upload_build_files", "dur": 7.366994395852089e-05, "ok": true, "err": null, "ts": 1791362440.2349336, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "healthcheck", "dur": 0.6576531230239198, "ok": true, "err": null, "ts": 1791362440.892704, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "prepare", "dur": 0.07500101497862488, "ok": true, "err": null, "ts": 1791362440.96785, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "provision", "dur": 1.983789524063468, "ok": true, "err": null, "ts": 1791362440.9679606, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "exec", "dur": 0.01170531497336924, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362440.9860055, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "verify", "dur": 0.8288091940339655, "ok": true, "err": null, "ts": 1791362441.8149996, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362441.8150945, "step": null}
+{"sandbox": "e2b", "rollout": "40fa9309bf6a", "task": "0001_231_1231918_qa_1", "op": "stop", "dur": 0.031231024069711566, "ok": true, "err": null, "ts": 1791362441.8466322, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "create", "dur": 0.0004072519950568676, "ok": true, "err": null, "ts": 1791362441.8485622, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "start", "dur": 1.6882934630848467, "ok": true, "err": null, "ts": 1791362443.5369887, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "upload_build_files", "dur": 7.808092050254345e-05, "ok": true, "err": null, "ts": 1791362443.537188, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "healthcheck", "dur": 0.18001309700775892, "ok": true, "err": null, "ts": 1791362443.7173188, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "prepare", "dur": 0.04718823602888733, "ok": true, "err": null, "ts": 1791362443.764648, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "provision", "dur": 1.9166147930081934, "ok": true, "err": null, "ts": 1791362443.764759, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "exec", "dur": 0.01052897295448929, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362443.7821999, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "verify", "dur": 0.5999259540112689, "ok": true, "err": null, "ts": 1791362444.3823116, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362444.3824296, "step": null}
+{"sandbox": "e2b", "rollout": "ee5da153018e", "task": "0001_289_1289812_qa_4", "op": "stop", "dur": 0.02733251196332276, "ok": true, "err": null, "ts": 1791362444.410063, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "create", "dur": 0.00039569393265992403, "ok": true, "err": null, "ts": 1791362444.4119484, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "start", "dur": 1.4170232400065288, "ok": true, "err": null, "ts": 1791362445.8291216, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "upload_build_files", "dur": 8.751195855438709e-05, "ok": true, "err": null, "ts": 1791362445.8293517, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "healthcheck", "dur": 0.3111980260582641, "ok": true, "err": null, "ts": 1791362446.1406784, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "prepare", "dur": 0.14267983101308346, "ok": true, "err": null, "ts": 1791362446.2835443, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "provision", "dur": 1.8721189430216327, "ok": true, "err": null, "ts": 1791362446.2836614, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "exec", "dur": 0.40720852196682245, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362446.7200034, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "verify", "dur": 0.7828828229103237, "ok": true, "err": null, "ts": 1791362447.5030997, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362447.5031962, "step": null}
+{"sandbox": "e2b", "rollout": "8e5994a6ece2", "task": "0001_659_1659621_qa_1", "op": "stop", "dur": 0.027065348927862942, "ok": true, "err": null, "ts": 1791362447.5305355, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "create", "dur": 0.00040774804074317217, "ok": true, "err": null, "ts": 1791362447.5324376, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "start", "dur": 1.655297596938908, "ok": true, "err": null, "ts": 1791362449.1878781, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "upload_build_files", "dur": 0.00010096607729792595, "ok": true, "err": null, "ts": 1791362449.1881173, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "healthcheck", "dur": 0.7095931130461395, "ok": true, "err": null, "ts": 1791362449.8978362, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "prepare", "dur": 0.011412710999138653, "ok": true, "err": null, "ts": 1791362449.9094057, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "provision", "dur": 2.3775036400184035, "ok": true, "err": null, "ts": 1791362449.9095237, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "exec", "dur": 0.010791482985951006, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362449.9274793, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "verify", "dur": 1.5942789620021358, "ok": true, "err": null, "ts": 1791362451.521946, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362451.5220459, "step": null}
+{"sandbox": "e2b", "rollout": "7c3b55a1d9d2", "task": "0001_991_1991376_qa_1", "op": "stop", "dur": 0.0281293960288167, "ok": true, "err": null, "ts": 1791362451.550517, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "create", "dur": 0.00041281001176685095, "ok": true, "err": null, "ts": 1791362451.5524516, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "start", "dur": 1.4475930739426985, "ok": true, "err": null, "ts": 1791362453.000188, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "upload_build_files", "dur": 7.568101864308119e-05, "ok": true, "err": null, "ts": 1791362453.000383, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "healthcheck", "dur": 0.8807042830158025, "ok": true, "err": null, "ts": 1791362453.881207, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "prepare", "dur": 0.23993379098828882, "ok": true, "err": null, "ts": 1791362454.1212873, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "provision", "dur": 2.569374194019474, "ok": true, "err": null, "ts": 1791362454.1214018, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "exec", "dur": 0.011461589951068163, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362454.1397474, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "verify", "dur": 0.29557004501111805, "ok": true, "err": null, "ts": 1791362454.435498, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362454.4355896, "step": null}
+{"sandbox": "e2b", "rollout": "7dba66d6b52f", "task": "0016_104_16104392_qa_2", "op": "stop", "dur": 0.029782869038172066, "ok": true, "err": null, "ts": 1791362454.4656358, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "create", "dur": 0.0003751330077648163, "ok": true, "err": null, "ts": 1791362454.4674478, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "start", "dur": 1.425926272990182, "ok": true, "err": null, "ts": 1791362455.893538, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "upload_build_files", "dur": 7.714203093200922e-05, "ok": true, "err": null, "ts": 1791362455.8937435, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "healthcheck", "dur": 0.4497561879688874, "ok": true, "err": null, "ts": 1791362456.3436255, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "prepare", "dur": 0.3894549139076844, "ok": true, "err": null, "ts": 1791362456.7332287, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "provision", "dur": 2.266283054021187, "ok": true, "err": null, "ts": 1791362456.7333474, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "exec", "dur": 0.010655906051397324, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362456.7506099, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "verify", "dur": 1.306412807898596, "ok": true, "err": null, "ts": 1791362458.0572155, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362458.0573173, "step": null}
+{"sandbox": "e2b", "rollout": "ca265c6934e5", "task": "0027_151_27151900_qa_5", "op": "stop", "dur": 0.0280767020303756, "ok": true, "err": null, "ts": 1791362458.0857203, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "create", "dur": 0.00042020203545689583, "ok": true, "err": null, "ts": 1791362458.0876565, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "start", "dur": 1.099886663025245, "ok": true, "err": null, "ts": 1791362459.1876814, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "upload_build_files", "dur": 7.576902862638235e-05, "ok": true, "err": null, "ts": 1791362459.1878836, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "healthcheck", "dur": 1.212189413025044, "ok": true, "err": null, "ts": 1791362460.4002187, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "prepare", "dur": 0.010153779992833734, "ok": true, "err": null, "ts": 1791362460.4105363, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "provision", "dur": 2.3234268369851634, "ok": true, "err": null, "ts": 1791362460.410652, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "exec", "dur": 0.01138783001806587, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362460.4292536, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "verify", "dur": 0.580434856005013, "ok": true, "err": null, "ts": 1791362461.0098975, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362461.009997, "step": null}
+{"sandbox": "e2b", "rollout": "a7a569eb27c5", "task": "0028_407_28407702_qa_1", "op": "stop", "dur": 0.028324590995907784, "ok": true, "err": null, "ts": 1791362461.0386317, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "create", "dur": 0.0006931390380486846, "ok": true, "err": null, "ts": 1791362461.040875, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "start", "dur": 1.5013889009132981, "ok": true, "err": null, "ts": 1791362462.5424058, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "upload_build_files", "dur": 8.406199049204588e-05, "ok": true, "err": null, "ts": 1791362462.5426195, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "healthcheck", "dur": 0.8182061309926212, "ok": true, "err": null, "ts": 1791362463.3609493, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "prepare", "dur": 0.009429162950254977, "ok": true, "err": null, "ts": 1791362463.3705227, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "provision", "dur": 2.3304697240237147, "ok": true, "err": null, "ts": 1791362463.3706353, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "exec", "dur": 0.010310058016330004, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362463.3873923, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "verify", "dur": 1.186574287014082, "ok": true, "err": null, "ts": 1791362464.5741532, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362464.5742502, "step": null}
+{"sandbox": "e2b", "rollout": "cf4a4f08aa2d", "task": "0036_430_36430763_qa_5", "op": "stop", "dur": 0.027094820979982615, "ok": true, "err": null, "ts": 1791362464.6016605, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "create", "dur": 0.0004476399626582861, "ok": true, "err": null, "ts": 1791362464.6036677, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "start", "dur": 1.7727749668993056, "ok": true, "err": null, "ts": 1791362466.3765862, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "upload_build_files", "dur": 8.167990017682314e-05, "ok": true, "err": null, "ts": 1791362466.376798, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "healthcheck", "dur": 0.12139219092205167, "ok": true, "err": null, "ts": 1791362466.4983132, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "prepare", "dur": 0.00968588690739125, "ok": true, "err": null, "ts": 1791362466.5081558, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "provision", "dur": 1.9050642650108784, "ok": true, "err": null, "ts": 1791362466.5082712, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "exec", "dur": 0.012551299994811416, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362466.5283585, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "verify", "dur": 0.29785026994068176, "ok": true, "err": null, "ts": 1791362466.8264003, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "reward", "reward": 1.0, "ts": 1791362466.8264937, "step": null}
+{"sandbox": "e2b", "rollout": "437c1af0c54d", "task": "0037_168_37168956_qa_5", "op": "stop", "dur": 0.026348545914515853, "ok": true, "err": null, "ts": 1791362466.8531199, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "create", "dur": 0.0003847939660772681, "ok": true, "err": null, "ts": 1791362466.8549938, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "start", "dur": 1.718034667079337, "ok": true, "err": null, "ts": 1791362468.5731778, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "upload_build_files", "dur": 8.597597479820251e-05, "ok": true, "err": null, "ts": 1791362468.5734105, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "healthcheck", "dur": 0.5577604229329154, "ok": true, "err": null, "ts": 1791362469.1312988, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "prepare", "dur": 0.298858818016015, "ok": true, "err": null, "ts": 1791362469.4303074, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "provision", "dur": 2.575820991070941, "ok": true, "err": null, "ts": 1791362469.4304202, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "exec", "dur": 0.05662596307229251, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362469.4938152, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "verify", "dur": 0.08919314807280898, "ok": true, "err": null, "ts": 1791362469.5832107, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362469.5833037, "step": null}
+{"sandbox": "e2b", "rollout": "07a582caac3a", "task": "0038_673_38673777_qa_1", "op": "stop", "dur": 0.02843605901580304, "ok": true, "err": null, "ts": 1791362469.612068, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "create", "dur": 0.00040203193202614784, "ok": true, "err": null, "ts": 1791362469.61431, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "start", "dur": 1.556977894040756, "ok": true, "err": null, "ts": 1791362471.1714296, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "upload_build_files", "dur": 8.118292316794395e-05, "ok": true, "err": null, "ts": 1791362471.171639, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "healthcheck", "dur": 0.43088564299978316, "ok": true, "err": null, "ts": 1791362471.6026483, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "prepare", "dur": 0.009084900026209652, "ok": true, "err": null, "ts": 1791362471.611889, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "provision", "dur": 1.998107246006839, "ok": true, "err": null, "ts": 1791362471.6120048, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "exec", "dur": 0.09249056200496852, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362471.710354, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "verify", "dur": 0.41722497704904526, "ok": true, "err": null, "ts": 1791362472.127788, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "reward", "reward": 1.0, "ts": 1791362472.1278782, "step": null}
+{"sandbox": "e2b", "rollout": "87560815845c", "task": "0062_015_62015834_qa_1", "op": "stop", "dur": 0.027671109070070088, "ok": true, "err": null, "ts": 1791362472.1558392, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "create", "dur": 0.0003811839269474149, "ok": true, "err": null, "ts": 1791362472.1576962, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "start", "dur": 1.0035626429598778, "ok": true, "err": null, "ts": 1791362473.1613872, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "upload_build_files", "dur": 7.73139763623476e-05, "ok": true, "err": null, "ts": 1791362473.1615846, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "healthcheck", "dur": 0.6304666340583935, "ok": true, "err": null, "ts": 1791362473.792171, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "prepare", "dur": 0.09596479905303568, "ok": true, "err": null, "ts": 1791362473.8882844, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "provision", "dur": 1.7310916149290279, "ok": true, "err": null, "ts": 1791362473.888399, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "exec", "dur": 0.01022015803027898, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362473.904862, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "verify", "dur": 0.24839284003246576, "ok": true, "err": null, "ts": 1791362474.1534553, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362474.1535842, "step": null}
+{"sandbox": "e2b", "rollout": "de857154cb45", "task": "0077_684_77684454_qa_2", "op": "stop", "dur": 0.026750639081001282, "ok": true, "err": null, "ts": 1791362474.180635, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "create", "dur": 0.0004061299841850996, "ok": true, "err": null, "ts": 1791362474.1825356, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "start", "dur": 1.2953735899645835, "ok": true, "err": null, "ts": 1791362475.4780455, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "upload_build_files", "dur": 8.009001612663269e-05, "ok": true, "err": null, "ts": 1791362475.4782522, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "healthcheck", "dur": 0.6422192219179124, "ok": true, "err": null, "ts": 1791362476.1205945, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "prepare", "dur": 0.009267610032111406, "ok": true, "err": null, "ts": 1791362476.1300075, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "provision", "dur": 1.9480018010362983, "ok": true, "err": null, "ts": 1791362476.1301196, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "exec", "dur": 0.01038057403638959, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362476.192124, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "verify", "dur": 0.43709308898542076, "ok": true, "err": null, "ts": 1791362476.6294222, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362476.6295109, "step": null}
+{"sandbox": "e2b", "rollout": "40b09e5a0b5f", "task": "0084_834_84834261_qa_4", "op": "stop", "dur": 0.028316018055193126, "ok": true, "err": null, "ts": 1791362476.6580896, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "create", "dur": 0.0003647279227152467, "ok": true, "err": null, "ts": 1791362476.6598568, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "start", "dur": 1.3312521659536287, "ok": true, "err": null, "ts": 1791362477.9912415, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "upload_build_files", "dur": 8.261192124336958e-05, "ok": true, "err": null, "ts": 1791362477.9914572, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "healthcheck", "dur": 0.37634412094485015, "ok": true, "err": null, "ts": 1791362478.3679202, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "prepare", "dur": 0.024478617939166725, "ok": true, "err": null, "ts": 1791362478.392533, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "provision", "dur": 1.7331556269200519, "ok": true, "err": null, "ts": 1791362478.3926396, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "exec", "dur": 0.04308044200297445, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362478.4426746, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "verify", "dur": 1.474446934997104, "ok": true, "err": null, "ts": 1791362479.9173021, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "reward", "reward": 1.0, "ts": 1791362479.9173985, "step": null}
+{"sandbox": "e2b", "rollout": "2bf746afff54", "task": "0088_816_88816581_qa_4", "op": "stop", "dur": 0.028150630998425186, "ok": true, "err": null, "ts": 1791362479.9458435, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "create", "dur": 0.00039902597200125456, "ok": true, "err": null, "ts": 1791362479.947744, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "start", "dur": 1.3786985320039093, "ok": true, "err": null, "ts": 1791362481.3265736, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "upload_build_files", "dur": 7.600791286677122e-05, "ok": true, "err": null, "ts": 1791362481.3267689, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "healthcheck", "dur": 0.27154343004804105, "ok": true, "err": null, "ts": 1791362481.5984337, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "prepare", "dur": 0.06741018895991147, "ok": true, "err": null, "ts": 1791362481.6659896, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "provision", "dur": 1.718766642967239, "ok": true, "err": null, "ts": 1791362481.6661034, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "exec", "dur": 0.011266645044088364, "ok": true, "err": null, "rc": 0, "cmd": "bash /solution/solve.sh", "ts": 1791362481.6840632, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "verify", "dur": 0.8786834649508819, "ok": true, "err": null, "ts": 1791362482.5629475, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "reward", "reward": 1.0, "ts": 1791362482.5630596, "step": null}
+{"sandbox": "e2b", "rollout": "b961cfd77914", "task": "0095_334_95334310_qa_2", "op": "stop", "dur": 0.030325585044920444, "ok": true, "err": null, "ts": 1791362482.5936809, "step": null}

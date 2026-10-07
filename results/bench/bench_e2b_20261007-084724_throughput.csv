@@ -1,0 +1,4 @@
+sandbox,concurrency,sessions_ok,sessions_failed,execs,wall_sec,sessions_per_sec,execs_per_sec
+e2b,8,8,0,80,0.378,21.158,211.584
+e2b,32,32,0,320,1.016,31.483,314.834
+e2b,128,128,0,1280,3.757,34.066,340.656

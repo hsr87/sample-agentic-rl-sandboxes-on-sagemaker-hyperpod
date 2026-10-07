@@ -1,0 +1,50 @@
+[
+  {
+    "ParameterKey": "ResourceNamePrefix",
+    "ParameterValue": "harbor-rl-hp"
+  },
+  {
+    "ParameterKey": "ResourceNameShortPrefix",
+    "ParameterValue": "harborrl"
+  },
+  {
+    "ParameterKey": "HyperPodClusterName",
+    "ParameterValue": "harbor-rl-hp"
+  },
+  {
+    "ParameterKey": "EKSClusterName",
+    "ParameterValue": "harbor-rl-hp-eks"
+  },
+  {
+    "ParameterKey": "KubernetesVersion",
+    "ParameterValue": "1.35"
+  },
+  {
+    "ParameterKey": "AvailabilityZoneIds",
+    "ParameterValue": "usw2-az1,usw2-az2,usw2-az3"
+  },
+  {
+    "ParameterKey": "FsxAvailabilityZoneId",
+    "ParameterValue": "usw2-az2"
+  },
+  {
+    "ParameterKey": "CreateFsxStack",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "EnableHPInferenceFeature",
+    "ParameterValue": "false"
+  },
+  {
+    "ParameterKey": "NodeRecovery",
+    "ParameterValue": "Automatic"
+  },
+  {
+    "ParameterKey": "InstanceGroupSettings1",
+    "ParameterValue": "[{\"InstanceCount\":1,\"InstanceGroupName\":\"gpu\",\"InstanceType\":\"ml.p4d.24xlarge\",\"TargetAvailabilityZoneId\":\"usw2-az2\",\"ThreadsPerCore\":1,\"InstanceStorageConfigs\":[{\"EbsVolumeConfig\":{\"VolumeSizeInGB\":500}}]}]"
+  },
+  {
+    "ParameterKey": "Tags",
+    "ParameterValue": "[{\"Key\":\"Project\",\"Value\":\"harbor-rl-sandbox\"}]"
+  }
+]

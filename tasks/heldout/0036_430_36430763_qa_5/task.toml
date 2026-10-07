@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0036_430_36430763_qa_5"
+description = "What is the skewness value for the medical insurance charges distribution in the dataset?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0036/430/36430763.ipynb_qa_5"
+kaggle_dataset_name = "mirichoi0218/insurance"
+gold_answer = "1.5142"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "heldout"
+sweep_solve_frac = 0.25
+data_prefix = "mirichoi0218__insurance"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/mirichoi0218__insurance /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "mirichoi0218/insurance"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "1.5142"
+QUESTION = "What is the skewness value for the medical insurance charges distribution in the dataset?"
+REWARD_MODE = "numeric"
+ATOL = "0.001"
+RTOL = "0.005"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

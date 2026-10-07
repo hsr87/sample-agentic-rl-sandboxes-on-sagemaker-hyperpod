@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0026_826_26826730_qa_2"
+description = "How many features were retained after applying the chi-square feature selection method with the top 20 scores?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0026/826/26826730.ipynb_qa_2"
+kaggle_dataset_name = "pavansubhasht/ibm-hr-analytics-attrition-dataset"
+gold_answer = "20"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.25
+data_prefix = "pavansubhasht__ibm-hr-analytics-attrition-dataset"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/pavansubhasht__ibm-hr-analytics-attrition-dataset /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "pavansubhasht/ibm-hr-analytics-attrition-dataset"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "20"
+QUESTION = "How many features were retained after applying the chi-square feature selection method with the top 20 scores?"
+REWARD_MODE = "numeric"
+ATOL = "0.0"
+RTOL = "0.0"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

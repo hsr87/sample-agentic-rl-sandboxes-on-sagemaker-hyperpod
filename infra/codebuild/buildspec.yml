@@ -1,0 +1,12 @@
+version: 0.2
+# Builds training/Dockerfile natively on linux/amd64 and pushes it to ECR.
+phases:
+  pre_build:
+    commands:
+      - aws ecr get-login-password --region $AWS_REGION | docker login --username AWS --password-stdin $REGISTRY
+  build:
+    commands:
+      - docker build -f training/Dockerfile -t $IMAGE .
+  post_build:
+    commands:
+      - docker push $IMAGE

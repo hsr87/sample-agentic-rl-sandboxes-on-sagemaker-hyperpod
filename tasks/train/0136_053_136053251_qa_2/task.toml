@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0136_053_136053251_qa_2"
+description = "What is the correlation between Price_in_thousands and __year_resale_value after imputing missing values?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0136/053/136053251.ipynb_qa_2"
+kaggle_dataset_name = "gagandeep16/car-sales"
+gold_answer = "0.822394890219183"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.25
+data_prefix = "gagandeep16__car-sales"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/gagandeep16__car-sales /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "gagandeep16/car-sales"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "0.822394890219183"
+QUESTION = "What is the correlation between Price_in_thousands and __year_resale_value after imputing missing values?"
+REWARD_MODE = "numeric"
+ATOL = "0.001"
+RTOL = "0.005"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0038_673_38673777_qa_1"
+description = "What is the total global sales (in millions) of Action and Shooter games on Xbox and PS platforms that sold over 3 million copies in both North America and Europe?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0038/673/38673777.ipynb_qa_1"
+kaggle_dataset_name = "kedokedokedo/vgsales"
+gold_answer = "231.98"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "heldout"
+sweep_solve_frac = 0.25
+data_prefix = "kedokedokedo__vgsales"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/kedokedokedo__vgsales /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "kedokedokedo/vgsales"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "231.98"
+QUESTION = "What is the total global sales (in millions) of Action and Shooter games on Xbox and PS platforms that sold over 3 million copies in both North America and Europe?"
+REWARD_MODE = "numeric"
+ATOL = "0.05"
+RTOL = "0.01"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

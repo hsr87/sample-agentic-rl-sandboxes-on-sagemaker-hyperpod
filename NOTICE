@@ -1,0 +1,20 @@
+Agentic RL Sandboxes on SageMaker HyperPod: E2B vs Amazon Bedrock AgentCore Runtime
+
+Licensed under the Apache License, Version 2.0 (see LICENSE).
+
+This project includes or is derived from the following third-party works:
+
+* agentcore/harbor_agentcore/environment.py and agentcore/shim/main.go contain code adapted from
+  github.com/mightma/harbor (branch acr-kit-v1, commit 4ee0cb25), licensed under the Apache License 2.0,
+  which in turn ported parts of github.com/awslabs/agentcore-rl-toolkit, licensed under the Apache License 2.0.
+
+* tasks/train/ and tasks/heldout/ (instructions, task configuration and tests/grader.py) are derived from the
+  Hugging Face dataset AdithyaSK/data_agent_rl_environment_train (revision 4073bb9b), licensed under the
+  Apache License 2.0, with task difficulty data from AdithyaSK/data_agent_rl_environment_train_difficulty_ranked
+  (revision 59235628). The underlying questions come from jupyter-agent/jupyter-agent-dataset (Apache License 2.0).
+  The Kaggle datasets referenced by the tasks are not redistributed in this repository; they are downloaded at
+  build time and remain subject to their own licenses.
+
+* The self-hosted E2B deployment scripts in infra/e2b-selfhosted/ deploy aws-samples/sample-e2b-on-aws
+  (commit 830b516a47b5ecbe86bb981d4816927145280e22), licensed under the Apache License 2.0, which packages
+  e2b-dev/infra (Apache License 2.0). That code is downloaded at deploy time and is not included here.

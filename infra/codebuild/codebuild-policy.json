@@ -1,0 +1,14 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {"Effect": "Allow", "Action": ["logs:CreateLogGroup", "logs:CreateLogStream", "logs:PutLogEvents"],
+     "Resource": "arn:aws:logs:${AWS_REGION}:${ACCOUNT_ID}:log-group:/aws/codebuild/harbor-rl-*"},
+    {"Effect": "Allow", "Action": ["s3:GetObject", "s3:GetObjectVersion"],
+     "Resource": "arn:aws:s3:::${BUCKET}/codebuild/*"},
+    {"Effect": "Allow", "Action": "ecr:GetAuthorizationToken", "Resource": "*"},
+    {"Effect": "Allow",
+     "Action": ["ecr:BatchCheckLayerAvailability", "ecr:BatchGetImage", "ecr:GetDownloadUrlForLayer",
+                "ecr:InitiateLayerUpload", "ecr:UploadLayerPart", "ecr:CompleteLayerUpload", "ecr:PutImage"],
+     "Resource": "arn:aws:ecr:${AWS_REGION}:${ACCOUNT_ID}:repository/harbor-rl/*"}
+  ]
+}

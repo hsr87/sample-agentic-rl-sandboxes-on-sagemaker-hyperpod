@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0001_903_1903634_qa_1"
+description = "What is the p-value from the chi-square test examining the association between gender and romantic status in math students?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0001/903/1903634.ipynb_qa_1"
+kaggle_dataset_name = "uciml/student-alcohol-consumption"
+gold_answer = "0.05475"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.25
+data_prefix = "uciml__student-alcohol-consumption"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/uciml__student-alcohol-consumption /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "uciml/student-alcohol-consumption"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "0.05475"
+QUESTION = "What is the p-value from the chi-square test examining the association between gender and romantic status in math students?"
+REWARD_MODE = "numeric"
+ATOL = "0.001"
+RTOL = "0.005"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

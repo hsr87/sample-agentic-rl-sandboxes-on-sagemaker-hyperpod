@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0066_820_66820736_qa_5"
+description = "What is the root mean squared error (RMSE) of the model's predictions?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0066/820/66820736.ipynb_qa_5"
+kaggle_dataset_name = "aariyan101/usa-housingcsv"
+gold_answer = "100499.69083964829"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.125
+data_prefix = "aariyan101__usa-housingcsv"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/aariyan101__usa-housingcsv /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "aariyan101/usa-housingcsv"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "100499.69083964829"
+QUESTION = "What is the root mean squared error (RMSE) of the model's predictions?"
+REWARD_MODE = "numeric"
+ATOL = "0.001"
+RTOL = "0.005"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

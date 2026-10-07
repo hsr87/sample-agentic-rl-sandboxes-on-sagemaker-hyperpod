@@ -1,0 +1,85 @@
+cloudpickle==3.1.2
+    # via joblib
+contourpy==1.4.0
+    # via matplotlib
+cycler==0.12.1
+    # via matplotlib
+fonttools==4.66.1
+    # via matplotlib
+formulaic==1.2.2
+    # via statsmodels
+interface-meta==2.0.1
+    # via formulaic
+joblib==1.6.0
+    # via scikit-learn
+kiwisolver==1.5.1
+    # via matplotlib
+matplotlib==3.11.2
+    # via
+    #   -r tasks/image/requirements.in
+    #   seaborn
+narwhals==2.26.0
+    # via
+    #   formulaic
+    #   plotly
+    #   scikit-learn
+numpy==2.5.3
+    # via
+    #   -r tasks/image/requirements.in
+    #   contourpy
+    #   formulaic
+    #   matplotlib
+    #   pandas
+    #   patsy
+    #   scikit-learn
+    #   scipy
+    #   seaborn
+    #   statsmodels
+packaging==26.3
+    # via
+    #   matplotlib
+    #   patsy
+    #   plotly
+    #   statsmodels
+pandas==3.0.6
+    # via
+    #   -r tasks/image/requirements.in
+    #   formulaic
+    #   seaborn
+    #   statsmodels
+patsy==1.0.3
+    # via statsmodels
+pillow==12.3.0
+    # via matplotlib
+plotly==7.1.0
+    # via -r tasks/image/requirements.in
+pyparsing==3.3.3
+    # via matplotlib
+python-dateutil==2.9.0.post0
+    # via
+    #   matplotlib
+    #   pandas
+scikit-learn==1.9.1
+    # via -r tasks/image/requirements.in
+scipy==1.18.1
+    # via
+    #   -r tasks/image/requirements.in
+    #   formulaic
+    #   scikit-learn
+    #   statsmodels
+seaborn==0.13.2
+    # via -r tasks/image/requirements.in
+six==1.17.0
+    # via python-dateutil
+statsmodels==0.15.0
+    # via -r tasks/image/requirements.in
+tabulate==0.10.0
+    # via -r tasks/image/requirements.in
+threadpoolctl==3.7.0
+    # via scikit-learn
+typing-extensions==4.16.0
+    # via formulaic
+tzdata==2026.4 ; sys_platform == 'emscripten' or sys_platform == 'win32'
+    # via pandas
+wrapt==2.5.0
+    # via formulaic

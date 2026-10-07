@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.env
+*.env
+kubeconfig*
+.idea/
+.vscode/
+tasks/image/data/
+results/debug-*/
+.debug-results/
+.temp-*
+# Local working files (not part of the shared asset)
+/*.md
+!/README.md
+!/README.ko.md
+notes/
+*.pptx

@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0001_659_1659621_qa_1"
+description = "What is the p-value from the independent t-test comparing the sugar content between cold and hot cereals?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0001/659/1659621.ipynb_qa_1"
+kaggle_dataset_name = "crawford/80-cereals"
+gold_answer = "0.0187"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "heldout"
+sweep_solve_frac = 0.125
+data_prefix = "crawford__80-cereals"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/crawford__80-cereals /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "crawford/80-cereals"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "0.0187"
+QUESTION = "What is the p-value from the independent t-test comparing the sugar content between cold and hot cereals?"
+REWARD_MODE = "flexible"
+ATOL = "0.001"
+RTOL = "0.005"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

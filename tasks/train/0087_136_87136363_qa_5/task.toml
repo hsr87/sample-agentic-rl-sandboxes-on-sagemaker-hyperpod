@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0087_136_87136363_qa_5"
+description = "What is the predicted salary for an individual with 11 years of experience according to the regression model?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0087/136/87136363.ipynb_qa_5"
+kaggle_dataset_name = "karthickveerakumar/salary-data-simple-linear-regression"
+gold_answer = "129010.76183907"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.125
+data_prefix = "karthickveerakumar__salary-data-simple-linear-regression"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/karthickveerakumar__salary-data-simple-linear-regression /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "karthickveerakumar/salary-data-simple-linear-regression"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "129010.76183907"
+QUESTION = "What is the predicted salary for an individual with 11 years of experience according to the regression model?"
+REWARD_MODE = "numeric"
+ATOL = "0.001"
+RTOL = "0.005"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

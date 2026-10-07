@@ -1,0 +1,60 @@
+schema_version = "1.2"
+artifacts = []
+
+[task]
+name = "harbor-rl-suite/0012_920_12920904_qa_2"
+description = "Which Minkowski metric parameter (p) value resulted in the lowest test error rate across all evaluated values?"
+authors = []
+keywords = [
+    "data-agent",
+    "data-analysis",
+    "kaggle",
+]
+
+[metadata]
+source_dataset = "jupyter-agent/jupyter-agent-dataset"
+source_row_id = "0012/920/12920904.ipynb_qa_2"
+kaggle_dataset_name = "uciml/iris"
+gold_answer = "1"
+reward_mode_initial = "numeric"
+package_tier = 1
+difficulty_level = 0
+suite_split = "train"
+sweep_solve_frac = 0.25
+data_prefix = "uciml__iris"
+
+[environment]
+build_timeout_sec = 600.0
+os = "linux"
+cpus = 2
+memory_mb = 4096
+storage_mb = 5120
+gpus = 0
+mcp_servers = []
+network_mode = "no-network"
+
+[environment.healthcheck]
+command = "rm -rf /home/user/input && ln -s /data/uciml__iris /home/user/input && [ -n \"$(ls /home/user/input/)\" ]"
+interval_sec = 1.0
+timeout_sec = 30.0
+start_period_sec = 0.0
+start_interval_sec = 1.0
+retries = 3
+
+[environment.env]
+KAGGLE_DATASET_NAME = "uciml/iris"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+EXPECTED_ANSWER = "1"
+QUESTION = "Which Minkowski metric parameter (p) value resulted in the lowest test error rate across all evaluated values?"
+REWARD_MODE = "numeric"
+ATOL = "0.0"
+RTOL = "0.0"
+
+[agent]
+timeout_sec = 600.0
+
+[solution.env]

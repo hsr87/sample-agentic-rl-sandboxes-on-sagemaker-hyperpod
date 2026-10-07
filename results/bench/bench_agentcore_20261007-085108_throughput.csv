@@ -1,0 +1,4 @@
+sandbox,concurrency,sessions_ok,sessions_failed,execs,wall_sec,sessions_per_sec,execs_per_sec
+agentcore,8,8,0,80,5.04,1.587,15.872
+agentcore,32,32,0,320,5.289,6.05,60.497
+agentcore,128,128,0,1280,7.93,16.142,161.422

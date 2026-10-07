@@ -1,0 +1,18 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {"Service": "pods.eks.amazonaws.com"},
+      "Action": ["sts:AssumeRole", "sts:TagSession"],
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceAccount": "${ACCOUNT_ID}",
+          "aws:RequestTag/eks-cluster-name": "${EKS_CLUSTER}",
+          "aws:RequestTag/kubernetes-namespace": "harbor-rl",
+          "aws:RequestTag/kubernetes-service-account": "trainer"
+        }
+      }
+    }
+  ]
+}

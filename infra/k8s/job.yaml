@@ -1,0 +1,46 @@
+# Rendered with envsubst: JOB_NAME, IMAGE, GPUS, COMMAND (JSON array), AGENTCORE_RUNTIME_ARN,
+# AGENTCORE_NETWORK_ISOLATED, RESULTS_S3_URI
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: ${JOB_NAME}
+  namespace: harbor-rl
+  labels: {app: harbor-rl}
+spec:
+  backoffLimit: 0
+  ttlSecondsAfterFinished: 86400
+  template:
+    metadata:
+      labels: {app: harbor-rl, job: ${JOB_NAME}}
+    spec:
+      serviceAccountName: trainer
+      restartPolicy: Never
+      containers:
+        - name: main
+          image: ${IMAGE}
+          command: ${COMMAND}
+          env:
+            - {name: AWS_REGION, value: us-west-2}
+            - {name: AGENTCORE_RUNTIME_ARN, value: "${AGENTCORE_RUNTIME_ARN}"}
+            - {name: AGENTCORE_NETWORK_ISOLATED, value: "${AGENTCORE_NETWORK_ISOLATED}"}
+            - {name: RESULTS_S3_URI, value: "${RESULTS_S3_URI}"}
+            - {name: HF_HOME, value: /cache/hf}
+            - name: E2B_API_KEY
+              valueFrom: {secretKeyRef: {name: sandbox-secrets, key: E2B_API_KEY, optional: true}}
+            - name: E2B_DOMAIN  # self-hosted E2B (unset for E2B Cloud)
+              valueFrom: {secretKeyRef: {name: sandbox-secrets, key: E2B_DOMAIN, optional: true}}
+            - name: HF_TOKEN
+              valueFrom: {secretKeyRef: {name: sandbox-secrets, key: HF_TOKEN, optional: true}}
+          resources:
+            limits: {nvidia.com/gpu: ${GPUS}}
+          volumeMounts:
+            - {name: shm, mountPath: /dev/shm}
+            - {name: cache, mountPath: /cache}
+            - {name: results, mountPath: /results}
+      volumes:
+        - name: shm
+          emptyDir: {medium: Memory, sizeLimit: 64Gi}
+        - name: cache
+          hostPath: {path: /opt/dlami/nvme/harbor-rl/cache, type: DirectoryOrCreate}
+        - name: results
+          hostPath: {path: /opt/dlami/nvme/harbor-rl/results, type: DirectoryOrCreate}

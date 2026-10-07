@@ -1,0 +1,20 @@
+item,sandbox,value,formula,tag
+sandbox cost per run (USD),agentcore,6.095,5.656 vCPU-h x 0.1276 + 294.03 GB-h x 0.0169 + VPC endpoints 0.08 $/h x 5.05 h,estimated
+"sandbox cost per 1,000 rollouts (USD)",agentcore,2.8859,run cost / sessions x 1000,estimated
+sandbox CPU utilization,agentcore,0.012,5.656 used vCPU-h / (235.4 session-h x 2 vCPU),measured
+average memory used per session (GB),agentcore,1.2493,294.0 GB-h / 235.4 session-h,measured
+E2B Cloud price per sandbox-hour (USD),e2b-cloud,0.1656,2 x 1.4e-05 x 3600 + 4 x 4.5e-06 x 3600,documented
+sandbox cost per run if run on E2B Cloud (USD),e2b-cloud,20.2548,122.3 measured session-h x 0.1656,estimated
+"sandbox cost per 1,000 rollouts on E2B Cloud (USD)",e2b-cloud,9.5904,run cost / sessions x 1000,estimated
+self-hosted E2B fixed cost per hour (USD),e2b-selfhosted,11.1059,client c8i.metal-48xl x1 8.9962 + nomad server t3.xlarge x3 0.4992 + api t3.xlarge x2 0.3328 + build m8i.4xlarge x1 0.8467 + bastion c7i.xlarge x1 0.1785 + nat gateway x1 0.0450 + alb (hourly part) 0.0225 + aurora serverless v2 (0.5 ACU floor) 0.0600 + elasticache serverless redis (1 GB floor) 0.1250,estimated
+"sandbox cost per run, self-hosted, dedicated (USD)",e2b-selfhosted,29.4327,11.11 x 2.65 h,estimated
+"sandbox cost per 1,000 rollouts, self-hosted, dedicated (USD)",e2b-selfhosted,13.9359,run cost / sessions x 1000,estimated
+client node CPU utilization during the run,e2b-selfhosted,0.007,"CloudWatch CPUUtilization average, 5 min periods",measured
+concurrent sessions needed for self-hosted to match AgentCore sandbox cost,e2b-selfhosted,428.8438,11.11 $/h / (6.10 / 235.4) $ per session-h,estimated
+average concurrent sessions during the run,e2b-selfhosted,46.1521,122.3 session-h / 2.65 h,measured
+GPU cost per run (USD),agentcore,130.8869,5.05 h x 25.91,estimated
+total cost per run (USD),agentcore,136.982,GPU + sandbox,estimated
+sandbox share of total cost,agentcore,0.0445,sandbox / total,estimated
+GPU cost per run (USD),e2b-selfhosted,68.6664,2.65 h x 25.91,estimated
+total cost per run (USD),e2b-selfhosted,98.0991,GPU + sandbox,estimated
+sandbox share of total cost,e2b-selfhosted,0.3,sandbox / total,estimated

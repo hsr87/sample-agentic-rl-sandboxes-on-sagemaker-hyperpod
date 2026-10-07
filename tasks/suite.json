@@ -1,0 +1,584 @@
+{
+  "source": {
+    "train_repo": "AdithyaSK/data_agent_rl_environment_train",
+    "ranked_repo": "AdithyaSK/data_agent_rl_environment_train_difficulty_ranked",
+    "bucket": "AdithyaSK/jupyter-agent-kaggle-all",
+    "train_revision": "4073bb9b817aba164d8697cbe504a646522cd07a",
+    "ranked_revision": "5923562863a29724c026021a2d16cb8e44e376d9"
+  },
+  "rules": {
+    "solve_frac": [
+      0.125,
+      0.25
+    ],
+    "max_dataset_bytes": 20000000,
+    "gold": "numeric",
+    "package_tier": 1,
+    "max_per_dataset": 3,
+    "seed": 42
+  },
+  "train": [
+    {
+      "task_dir": "0095_690_95690898_qa_5",
+      "kaggle_dataset_name": "dragonheir/basket-optimisation",
+      "answer": "0.2941",
+      "question": "What is the Kulczynski score for the association rule 'mineral water' \u2192 'ground beef'?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 22.9,
+      "dataset_bytes": 302908,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0113_941_113941848_qa_4",
+      "kaggle_dataset_name": "uciml/breast-cancer-wisconsin-data",
+      "answer": "0.9762",
+      "question": "What is the recall score of the Logistic Regression model when using PCA reduction with 95% explained variance ratio?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 22.0,
+      "dataset_bytes": 125204,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0012_920_12920904_qa_2",
+      "kaggle_dataset_name": "uciml/iris",
+      "answer": "1",
+      "question": "Which Minkowski metric parameter (p) value resulted in the lowest test error rate across all evaluated values?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 20.7,
+      "dataset_bytes": 15347,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0031_757_31757076_qa_2",
+      "kaggle_dataset_name": "muthuj7/weather-dataset",
+      "answer": "0.536361",
+      "question": "What is the lowest average humidity observed in April during the dataset period?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 15.4,
+      "dataset_bytes": 16294377,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0001_173_1173665_qa_3",
+      "kaggle_dataset_name": "filippoo/deep-learning-az-ann",
+      "answer": "0.3048",
+      "question": "After normalization, what is the mean value of the 'Balance' feature?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 15.4,
+      "dataset_bytes": 684858,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0127_585_127585527_qa_4",
+      "kaggle_dataset_name": "loveall/clicks-conversion-tracking",
+      "answer": "0.01667",
+      "question": "What is the adjusted significance threshold (alpha) used for the Bonferroni correction in the A/B testing analysis?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 18.9,
+      "dataset_bytes": 60522,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0087_136_87136363_qa_5",
+      "kaggle_dataset_name": "karthickveerakumar/salary-data-simple-linear-regression",
+      "answer": "129010.76183907",
+      "question": "What is the predicted salary for an individual with 11 years of experience according to the regression model?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 14.6,
+      "dataset_bytes": 454,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0039_156_39156457_qa_3",
+      "kaggle_dataset_name": "rakannimer/air-passengers",
+      "answer": "0.99188",
+      "question": "What is the highest p-value observed in any Augmented Dickey-Fuller test during the stationarity analysis?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 24.6,
+      "dataset_bytes": 1746,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0067_076_67076892_qa_3",
+      "kaggle_dataset_name": "uciml/pima-indians-diabetes-database",
+      "answer": "155.55",
+      "question": "After handling missing values by replacing zeros with column means, what is the mean Insulin level in the dataset?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 13.6,
+      "dataset_bytes": 23873,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0026_826_26826730_qa_2",
+      "kaggle_dataset_name": "pavansubhasht/ibm-hr-analytics-attrition-dataset",
+      "answer": "20",
+      "question": "How many features were retained after applying the chi-square feature selection method with the top 20 scores?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 23.1,
+      "dataset_bytes": 227977,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0001_625_1625261_qa_1",
+      "kaggle_dataset_name": "joniarroba/noshowappointments",
+      "answer": "179",
+      "question": "What is the maximum number of days a patient had to wait between scheduling their appointment and the actual appointment date?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 17.9,
+      "dataset_bytes": 10739535,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0093_351_93351284_qa_1",
+      "kaggle_dataset_name": "gilsousa/habermans-survival-data-set",
+      "answer": "52.23%",
+      "question": "What percentage of patients who survived 5 years or longer had zero positive axillary nodes?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 20.3,
+      "dataset_bytes": 3103,
+      "reward_mode_initial": "flexible"
+    },
+    {
+      "task_dir": "0000_994_994443_qa_4",
+      "kaggle_dataset_name": "uciml/sms-spam-collection-dataset",
+      "answer": "623",
+      "question": "How many spam messages in the dataset contain phone numbers with four or more digits?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 20.4,
+      "dataset_bytes": 503663,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0083_191_83191425_qa_3",
+      "kaggle_dataset_name": "shwetabh123/mall-customers",
+      "answer": "0.553931997444648",
+      "question": "What is the silhouette score for the K-Means clustering model when k=5?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 15.2,
+      "dataset_bytes": 4286,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0011_754_11754124_qa_4",
+      "kaggle_dataset_name": "abcsds/pokemon",
+      "answer": "0.9425",
+      "question": "What is the cross-validation accuracy of the Logistic Regression model using the 'newton-cg' solver?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 17.5,
+      "dataset_bytes": 44028,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0037_209_37209957_qa_1",
+      "kaggle_dataset_name": "PromptCloudHQ/imdb-data",
+      "answer": "0.672731",
+      "question": "What is the correlation coefficient between movie ratings and Metascores in the training dataset?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 15.5,
+      "dataset_bytes": 309767,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0115_514_115514429_qa_4",
+      "kaggle_dataset_name": "uciml/red-wine-quality-cortez-et-al-2009",
+      "answer": "320",
+      "question": "How many samples are in the test set for the regression model?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 18.0,
+      "dataset_bytes": 100951,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0034_768_34768850_qa_5",
+      "kaggle_dataset_name": "nicapotato/womens-ecommerce-clothing-reviews",
+      "answer": "6117",
+      "question": "What is the total count of the word \"great\" across all customer reviews in the dataset?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 19.0,
+      "dataset_bytes": 8483448,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0088_548_88548685_qa_4",
+      "kaggle_dataset_name": "arjunbhasin2013/ccdata",
+      "answer": "0.9758",
+      "question": "What is the average balance frequency in the cluster with the highest average purchases?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 22.2,
+      "dataset_bytes": 902879,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0015_168_15168316_qa_2",
+      "kaggle_dataset_name": "blastchar/telco-customer-churn",
+      "answer": "14",
+      "question": "How many categorical features demonstrate statistically significant associations with customer churn at the p < 0.05 level?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 19.0,
+      "dataset_bytes": 977501,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0045_067_45067031_qa_3",
+      "kaggle_dataset_name": "camnugent/california-housing-prices",
+      "answer": "100",
+      "question": "In the scatter plot visualizing housing prices, what scaling factor was applied to the population attribute to determine the radius of the circles?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 21.6,
+      "dataset_bytes": 1423529,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0052_465_52465579_qa_3",
+      "kaggle_dataset_name": "fivethirtyeight/the-ultimate-halloween-candy-power-ranking",
+      "answer": "35.015%",
+      "question": "What is the baseline predicted win percentage for a candy with none of the nine features included in the model?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 16.6,
+      "dataset_bytes": 5205,
+      "reward_mode_initial": "flexible"
+    },
+    {
+      "task_dir": "0136_053_136053251_qa_2",
+      "kaggle_dataset_name": "gagandeep16/car-sales",
+      "answer": "0.822394890219183",
+      "question": "What is the correlation between Price_in_thousands and __year_resale_value after imputing missing values?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 16.1,
+      "dataset_bytes": 16018,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0114_673_114673575_qa_5",
+      "kaggle_dataset_name": "gregorut/videogamesales",
+      "answer": "1958.82",
+      "question": "What is the difference in total sales volume between the highest-selling and second-highest-selling regions in the dataset?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 14.4,
+      "dataset_bytes": 1355781,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0066_820_66820736_qa_5",
+      "kaggle_dataset_name": "aariyan101/usa-housingcsv",
+      "answer": "100499.69083964829",
+      "question": "What is the root mean squared error (RMSE) of the model's predictions?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 17.6,
+      "dataset_bytes": 726209,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0075_094_75094397_qa_3",
+      "kaggle_dataset_name": "brijbhushannanda1979/bigmart-sales-data",
+      "answer": "12.857645",
+      "question": "What is the mean value of the 'Item_Weight' feature after handling missing values through imputation?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 14.6,
+      "dataset_bytes": 1397246,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0001_903_1903634_qa_1",
+      "kaggle_dataset_name": "uciml/student-alcohol-consumption",
+      "answer": "0.05475",
+      "question": "What is the p-value from the chi-square test examining the association between gender and romantic status in math students?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 20.0,
+      "dataset_bytes": 110810,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0119_590_119590030_qa_2",
+      "kaggle_dataset_name": "uciml/breast-cancer-wisconsin-data",
+      "answer": "1.0",
+      "question": "What is the maximum accuracy achieved in any of the 5 cross-validation folds?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 21.8,
+      "dataset_bytes": 125204,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0012_953_12953382_qa_3",
+      "kaggle_dataset_name": "uciml/iris",
+      "answer": "1.0",
+      "question": "What is the accuracy of the K-Nearest Neighbors model without cross-validation?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 16.2,
+      "dataset_bytes": 15347,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0056_714_56714045_qa_3",
+      "kaggle_dataset_name": "uciml/pima-indians-diabetes-database",
+      "answer": "0",
+      "question": "After applying the outlier replacement thresholds, how many columns still had outliers remaining in the dataset?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 23.2,
+      "dataset_bytes": 23873,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0016_945_16945752_qa_1",
+      "kaggle_dataset_name": "gilsousa/habermans-survival-data-set",
+      "answer": "4.67",
+      "question": "What is the mean axillary node count difference between patients who survived more than 5 years and those who did not?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 22.6,
+      "dataset_bytes": 3103,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0133_615_133615287_qa_4",
+      "kaggle_dataset_name": "uciml/sms-spam-collection-dataset",
+      "answer": "1",
+      "question": "How many false positive predictions does the balanced Bernoulli Naive Bayes model produce on the test set based on its confusion matrix?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 19.7,
+      "dataset_bytes": 503663,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0083_191_83191425_qa_1",
+      "kaggle_dataset_name": "shwetabh123/mall-customers",
+      "answer": "5",
+      "question": "What is the optimal number of clusters (k) based on the elbow method for inertia values in the Mall Customers dataset?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 20.2,
+      "dataset_bytes": 4286,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0000_939_939639_qa_2",
+      "kaggle_dataset_name": "abcsds/pokemon",
+      "answer": "4800",
+      "question": "What is the total number of rows in the dataset after using the pd.melt() function to transform the data for the swarmplot visualization?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 18.2,
+      "dataset_bytes": 44028,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0056_414_56414713_qa_1",
+      "kaggle_dataset_name": "uciml/red-wine-quality-cortez-et-al-2009",
+      "answer": "14.0",
+      "question": "What is the highest upper whisker value for the 'alcohol' feature across all wine quality classes based on the outlier analysis?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 16.8,
+      "dataset_bytes": 100951,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0081_615_81615013_qa_4",
+      "kaggle_dataset_name": "arjunbhasin2013/ccdata",
+      "answer": "17",
+      "question": "After standardizing the dataset, how many variables were transformed to have zero mean and unit variance?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 20.7,
+      "dataset_bytes": 902879,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0074_012_74012086_qa_5",
+      "kaggle_dataset_name": "blastchar/telco-customer-churn",
+      "answer": "24.468085%",
+      "question": "What is the churn rate for customers with a tenure of exactly 24 months?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 14.0,
+      "dataset_bytes": 977501,
+      "reward_mode_initial": "flexible"
+    },
+    {
+      "task_dir": "0052_694_52694962_qa_4",
+      "kaggle_dataset_name": "brijbhushannanda1979/bigmart-sales-data",
+      "answer": "0",
+      "question": "After handling missing values, what is the total count of missing values in the train dataset?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 11.7,
+      "dataset_bytes": 1397246,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0001_903_1903634_qa_4",
+      "kaggle_dataset_name": "uciml/student-alcohol-consumption",
+      "answer": "0.29068291621469522",
+      "question": "What is the p-value from the one-way chi-square test analyzing the distribution of gender in math students?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 22.0,
+      "dataset_bytes": 110810,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0027_270_27270164_qa_4",
+      "kaggle_dataset_name": "uciml/breast-cancer-wisconsin-data",
+      "answer": "96.5%",
+      "question": "What is the accuracy of the logistic regression model in classifying test data?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 20.6,
+      "dataset_bytes": 125204,
+      "reward_mode_initial": "flexible"
+    }
+  ],
+  "heldout": [
+    {
+      "task_dir": "0001_289_1289812_qa_4",
+      "kaggle_dataset_name": "chasewillden/netflix-shows",
+      "answer": "426",
+      "question": "How many Netflix shows in the dataset contain missing values in at least one column?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 20.0,
+      "dataset_bytes": 89054,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0028_407_28407702_qa_1",
+      "kaggle_dataset_name": "aleixdorca/wine-quality",
+      "answer": "0.218",
+      "question": "What is the difference in average alcohol content between excellent quality wines and bad quality wines in the normalized data?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 18.8,
+      "dataset_bytes": 406287,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0001_659_1659621_qa_1",
+      "kaggle_dataset_name": "crawford/80-cereals",
+      "answer": "0.0187",
+      "question": "What is the p-value from the independent t-test comparing the sugar content between cold and hot cereals?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 13.7,
+      "dataset_bytes": 5063,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0027_151_27151900_qa_5",
+      "kaggle_dataset_name": "uciml/mushroom-classification",
+      "answer": "0.94559",
+      "question": "What is the F1 score of the Logistic Regression model on the training data?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 18.1,
+      "dataset_bytes": 374003,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0036_430_36430763_qa_5",
+      "kaggle_dataset_name": "mirichoi0218/insurance",
+      "answer": "1.5142",
+      "question": "What is the skewness value for the medical insurance charges distribution in the dataset?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 9.2,
+      "dataset_bytes": 55628,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0001_231_1231918_qa_1",
+      "kaggle_dataset_name": "mcdonalds/nutrition-facts",
+      "answer": "9.61%",
+      "question": "What percentage of McDonald's menu items contain zero sugar based on the dataset?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 11.4,
+      "dataset_bytes": 29988,
+      "reward_mode_initial": "flexible"
+    },
+    {
+      "task_dir": "0000_563_563874_qa_2",
+      "kaggle_dataset_name": "primaryobjects/voicegender",
+      "answer": "93.09%",
+      "question": "What is the accuracy of the SVM model with a linear kernel when trained on the full dataset without cross-validation?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 18.7,
+      "dataset_bytes": 1065381,
+      "reward_mode_initial": "flexible"
+    },
+    {
+      "task_dir": "0088_816_88816581_qa_4",
+      "kaggle_dataset_name": "datasnaek/chess",
+      "answer": "5.25",
+      "question": "What is the average increment in seconds for the games after data cleaning?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 23.1,
+      "dataset_bytes": 7672655,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0062_015_62015834_qa_1",
+      "kaggle_dataset_name": "andonians/random-linear-regression",
+      "answer": "2.8107671499679467",
+      "question": "What is the mean root mean squared error (RMSE) from 10-fold cross-validation of the Linear Regression model on the training data?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 19.7,
+      "dataset_bytes": 14845,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0037_168_37168956_qa_5",
+      "kaggle_dataset_name": "rohankayan/years-of-experience-and-salary-dataset",
+      "answer": "120291.82",
+      "question": "What is the predicted salary for an individual with 10 years of experience according to the model?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 17.6,
+      "dataset_bytes": 454,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0038_673_38673777_qa_1",
+      "kaggle_dataset_name": "kedokedokedo/vgsales",
+      "answer": "231.98",
+      "question": "What is the total global sales (in millions) of Action and Shooter games on Xbox and PS platforms that sold over 3 million copies in both North America and Europe?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 20.1,
+      "dataset_bytes": 1351260,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0077_684_77684454_qa_2",
+      "kaggle_dataset_name": "nobelfoundation/nobel-laureates",
+      "answer": "34.22%",
+      "question": "What is the percentage of Nobel Prize laureates classified as 'Senior' in the Age_Group feature (age 65+)?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 20.4,
+      "dataset_bytes": 289963,
+      "reward_mode_initial": "flexible"
+    },
+    {
+      "task_dir": "0095_334_95334310_qa_2",
+      "kaggle_dataset_name": "mattcarter865/mines-vs-rocks",
+      "answer": "166",
+      "question": "How many samples are included in the training set after applying the 80-20 split?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 15.5,
+      "dataset_bytes": 87776,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0001_991_1991376_qa_1",
+      "kaggle_dataset_name": "ishaanv/ISLR-Auto",
+      "answer": "0.999",
+      "question": "What is the adjusted R-squared value of the best-performing regression model for predicting credit card balance among active users?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 24.7,
+      "dataset_bytes": 582659,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0084_834_84834261_qa_4",
+      "kaggle_dataset_name": "uciml/mushroom-classification",
+      "answer": "0.0",
+      "question": "What is the most common value in the 'bruises' attribute after label encoding?",
+      "solve_frac": 0.25,
+      "mean_tool_calls": 12.0,
+      "dataset_bytes": 374003,
+      "reward_mode_initial": "numeric"
+    },
+    {
+      "task_dir": "0016_104_16104392_qa_2",
+      "kaggle_dataset_name": "mirichoi0218/insurance",
+      "answer": "6140.529",
+      "question": "What is the root mean squared error (RMSE) of the LinearRegression model on the training data?",
+      "solve_frac": 0.125,
+      "mean_tool_calls": 16.6,
+      "dataset_bytes": 55628,
+      "reward_mode_initial": "numeric"
+    }
+  ]
+}

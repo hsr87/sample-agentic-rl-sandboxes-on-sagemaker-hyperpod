@@ -1,0 +1,61 @@
+{
+  "window": [
+    "2026-10-07T09:10:00Z",
+    "2026-10-07T14:20:00Z"
+  ],
+  "runtime_arn": "arn:aws:bedrock-agentcore:us-west-2:<ACCOUNT_ID>:runtime/<RUNTIME_ID>",
+  "by_operation": {
+    "InvokeAgentRuntime": {
+      "Invocations": {
+        "sum": 6336.0,
+        "max_per_min": 142.0
+      },
+      "Throttles": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      },
+      "Errors": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      },
+      "SystemErrors": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      },
+      "UserErrors": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      },
+      "Sessions": {
+        "sum": 2112.0,
+        "max_per_min": 48.0
+      }
+    },
+    "InvokeAgentRuntimeCommand": {
+      "Invocations": {
+        "sum": 31672.0,
+        "max_per_min": 380.0
+      },
+      "Throttles": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      },
+      "Errors": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      },
+      "SystemErrors": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      },
+      "UserErrors": {
+        "sum": 0.0,
+        "max_per_min": 0.0
+      }
+    }
+  },
+  "usage": {
+    "CPUUsed-vCPUHours": 5.65617157277776,
+    "MemoryUsed-GBHours": 294.0347178819587
+  }
+}
